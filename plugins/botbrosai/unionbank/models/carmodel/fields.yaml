@@ -1,0 +1,44 @@
+fields:
+    brand:
+        label: Brand
+        oc.commentPosition: ''
+        nameFrom: name
+        descriptionFrom: description
+        required: 1
+        span: auto
+        type: relation
+    model:
+        label: Model
+        oc.commentPosition: ''
+        span: left
+        required: 1
+        type: text
+    variant:
+        label: Variant
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    gas:
+        label: Gas
+        oc.commentPosition: ''
+        span: left
+        required: 1
+        type: text
+    engine_type:
+        label: 'Engine Type'
+        oc.commentPosition: ''
+        span: left
+        required: 1
+        type: text
+    transmission:
+        label: Transmission
+        oc.commentPosition: ''
+        span: left
+        required: 1
+        type: text
+    price:
+        label: Price
+        oc.commentPosition: ''
+        span: left
+        required: 1
+        type: number

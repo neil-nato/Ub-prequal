@@ -1,0 +1,17 @@
+columns:
+    fname:
+        label: Name
+        type: text
+        searchable: true
+        sortable: true
+        select: 'concat(fname, '' '', lname)'
+    otp_code:
+        label: 'OTP Code'
+        type: number
+        searchable: true
+        sortable: true
+    prequalification_code:
+        label: 'Prequalification Code'
+        type: text
+        searchable: true
+        sortable: true

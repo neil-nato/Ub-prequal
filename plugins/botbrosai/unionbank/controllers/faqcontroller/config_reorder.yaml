@@ -1,0 +1,4 @@
+title: FaqController
+modelClass: BotbrosAi\UnionBank\Models\Faq
+toolbar:
+    buttons: reorder_toolbar

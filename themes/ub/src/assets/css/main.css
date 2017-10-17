@@ -1,0 +1,577 @@
+
+/* GENERAL
+--------------------------------- */
+html, body {
+    color: #4c4c4c;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+    font-size: 14px;
+}
+body {
+    height: 100%;
+    width: 100%;
+}
+.btn-main {
+	background-color: #f6aa00;
+	color: #fff;
+}
+.btn-main:hover {
+	color: #fff;
+}
+.btn-main-inverse {
+	border: 1px solid #f6aa00;
+	color: #f6aa00;
+}
+.btn-gray {
+	background-color: #878787;
+	color: #fff;
+}
+
+/* HEADER
+--------------------------------- */
+header {
+	background-color: #323a44;
+}
+header .navbar {
+	margin-bottom: 0;
+}
+header .navbar .navbar-brand {
+	color: #fff;
+	width: 230px;
+}
+header .navbar .navbar-toggle {
+	background-color: #333;
+	border-color: #333;
+}
+header .navbar .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+header .navbar .navbar-brand img {
+	width: 100%;
+}
+header .navbar .navbar-nav li a {
+	color: #fff;
+}
+header .navbar .navbar-nav li a:hover,
+header .navbar .navbar-nav li a:focus {
+	background-color: #323a44;
+	color: #fff;
+}
+
+/* CONTENT BANNER
+--------------------------------- */
+.content-banner {
+	background: url(../images/banner.png) no-repeat;
+    background-size: cover;
+	color: #fff;
+}
+.content-banner .banner {
+	position: relative;
+	min-height: 300px;
+	height: 88%;
+}
+.content-banner .banner-text {
+	margin-left: 7rem;
+	margin-bottom: 5rem;
+	bottom: 0;
+	position: absolute;
+}
+.content-banner .banner-text h3 {
+	font-size: 2.75rem;
+}
+.content-banner .banner-text p {
+	font-size: 19px;
+	font-weight: 600;
+}
+.content-banner .col:nth-child(2) {
+	background-color: rgba(255, 255, 255, 0.92);
+	color: #4c4c4c;
+}
+.content-banner .col:nth-child(2) form {
+	padding: 7.5rem 2rem;
+}
+.content-banner .col:nth-child(2) form .input-text label {
+	font-weight: 600;
+	font-size: 18px;
+}
+.content-banner .col:nth-child(2) form .input-text p {
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+.content-banner .col:nth-child(2) form .input-submit {
+	text-align: center;
+}
+.content-banner .col:nth-child(2) form .input-submit input {
+	border-radius: 25px;
+	font-weight: 600;
+	padding: 1rem 5rem;
+}
+
+/* PRE QUALIFICATION PAGE
+--------------------------------- */
+.content-banner .pre-qualify-form form .input-text input[type="text"] {
+	border-radius: 0;
+	margin-bottom: 170px;
+}
+
+/* OTP PAGE
+--------------------------------- */
+.content-banner .otp-form form .input-text input[type="text"] {
+	background-color: inherit;
+	border: 0;
+	border-radius: 0;
+	border-bottom: 2px solid #bdbdbd;
+	box-shadow: none;
+	margin-bottom: 170px;
+}
+.content-banner .otp-form form .input-submit input {
+	margin-bottom: 20px;
+}
+.content-banner .otp-form form .input-submit p span {
+	color: #f6aa00;
+}
+.content-banner .otp-form form .input-submit p a {
+	color: #f6aa00;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+/* CALCULATOR PAGE
+--------------------------------- */
+.calculator-page .back-home {
+	color: #f6aa00;
+	display: inline-block;
+	font-weight: 600;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+.calculator-page .content-banner .col {
+	height: 500px;
+}
+.calculator-page .content-banner .col .banner-text {
+	margin-bottom: 12rem;
+}
+.calculator-page .calc-forms .calc-header {
+	padding: 50px 0 25px;
+}
+.calculator-page .calc-forms .calc-header h2 {
+	font-weight: 600;
+}
+.calculator-page .calc-forms .forms-wrapper {
+	border-top: 1px solid #f6aa00;
+	border-bottom: 1px solid #f6aa00;
+}
+.calculator-page .calc-forms form {
+	padding: 50px 20px;
+}
+.calculator-page .calc-forms .overlay {
+	background-color: rgba(128,128,128, 0.6);
+	position: absolute;
+    height: 100%;
+    left: -25%;
+    width: 150%;
+}
+.calculator-page .calc-forms form h3 {
+	color: #f6aa00;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.calculator-page .calc-forms form select,
+.calculator-page .calc-forms form input[type="text"] {
+	border-radius: 0;
+}
+.calculator-page .calc-forms form input[type="submit"] {
+	border-radius: 25px;
+	font-weight: 600;
+	margin-top: 20px;
+	padding: 0.8rem 4rem;
+}
+.calculator-page .summary {
+	padding: 6rem 0;
+}
+.calculator-page .summary h2 {
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.calculator-page .summary .car-model {
+	color: #f6aa00;
+	font-weight: 600;
+	font-size: 22px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+.calculator-page .summary .car-price-info {
+	border-left: 4px solid #f9d78c;
+	margin-bottom: 50px;
+	padding-left: 30px;
+}
+.calculator-page .summary .car-price-info .price-info {
+	padding-right: 100px;
+	margin-bottom: 40px;
+}
+.calculator-page .summary .car-price-info .price-amount {
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.calculator-page .summary .car-price-info .price-type {
+	font-weight: 600;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+.calculator-page .summary .apply-loan-form .form-group label {
+	font-size: 17px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.calculator-page .summary .apply-loan-form .amount-required {
+	font-size: 22px;
+}
+.calculator-page .summary .apply-loan-form .amount-required i {
+	color: #f6aa00;
+}
+.calculator-page .summary .apply-loan-form .amount-required-text {
+	font-size: 15px;
+	font-weight: 600;
+	width: 80%;
+}
+.calculator-page .summary .apply-loan-form .select-award > p {
+	color: #f6aa00;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.calculator-page .summary .apply-loan-form .award-list {
+	padding: 0;
+	margin: 0 0 50px;
+}
+.calculator-page .summary .apply-loan-form .award-list li {
+	list-style-type: none;
+	margin: 0 15px 15px 0;
+}
+.calculator-page .summary .apply-loan-form .award-list li a {
+	border: 2px solid #f9d78c;
+	border-radius: 20px;
+	color: #aaa;
+	display: block;
+	height: 115px;
+	padding: 1rem 2rem;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+    width: 18rem;
+}
+.calculator-page .summary .apply-loan-form .award-list li a.active {
+	background-color: #f6aa00;
+	border: 1px solid #f6aa00;
+	color: #fff;
+}
+.calculator-page .summary .apply-loan-form .award-list li a img {
+	width: 55%;
+}
+.calculator-page .summary .apply-loan-form .award-list li a i {
+	color: #f6aa00;
+	font-size: 50px;
+}
+.calculator-page .summary .apply-loan-form .award-list li a .fa-check {
+	font-size: 40px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.calculator-page .summary .apply-loan-form .award-list li p {
+	margin: 10px 0 0;
+	font-size: 17px;
+}
+.calculator-page .summary .apply-loan-form .btn {
+	border-radius: 25px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	min-width: 330px;
+	padding: 1rem 5rem;
+}
+
+/* SCREEN 3 PAGE
+--------------------------------- */
+.screen3-page .content-banner .col {
+	height: 500px;
+}
+.screen3-page .content-banner .col .banner-text {
+	margin-bottom: 12rem;
+}
+.screen3-page .basic-info {
+	padding: 40px 0;
+}
+.screen3-page .basic-info h2 {
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+.screen3-page .basic-info .col .fa {
+	color: #f6aa00;
+	display: inline-block;
+	font-size: 60px;
+	margin: 0 0 30px 20px;
+}
+.screen3-page .basic-info .col .info-title {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.screen3-page .loan-calc {
+	padding: 40px 0;
+}
+.screen3-page .loan-calc h2 {
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+.screen3-page .loan-calc .col p {
+	font-weight: 600;
+	font-size: 16px;
+	margin-bottom: 30px;
+	width: 85%;
+}
+.screen3-page .loan-calc .col > img {
+	width: 100%;
+}
+.screen3-page .loan-calc .col .actions .pull-left {
+	text-align: center;
+	padding: 20px;
+}
+.screen3-page .loan-calc .col .actions .fa {
+	color: #f6aa00;
+	display: block;
+	font-size: 60px;
+	margin-bottom: 15px;
+}
+.screen3-page .loan-calc .col .actions a {
+	border-radius: 25px;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 1rem 3rem;
+}
+.screen3-page .interest-promo {
+	background-color: #f5f5f5;
+}
+.screen3-page .interest-promo .background-img {
+	background: url(themes/ub/src/assets/images/car-model.png) no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+.screen3-page .interest-promo .promo-content {
+	padding: 50px 70px;
+}
+.screen3-page .interest-promo .promo-content h2 {
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.screen3-page .interest-promo .promo-content .promo-desc {
+	font-weight: 600;
+	font-size: 17px;
+	margin-bottom: 50px;
+}
+.screen3-page .interest-promo .promo-form .field-group {
+	margin-bottom: 10px;
+}
+.screen3-page .interest-promo .promo-form .field-group select {
+	border-radius: 0;
+	font-weight: 600;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	width: 250px;
+}
+.screen3-page .interest-promo .promo-form .field-group input[type="submit"] {
+	border-radius: 25px;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	padding: 0.6rem 3rem;
+}
+.screen3-page .interest-promo .promo-form .promo-price {
+	font-weight: 600;
+	font-size: 15px;
+	margin-bottom: 100px;
+}
+.screen3-page .interest-promo .promo-form .promo-valid {
+	font-weight: 600;
+	font-size: 13px;
+}
+.screen3-page .car-comparison {
+	padding: 50px 0 30px;
+}
+.screen3-page .car-comparison .section-header {
+	margin-bottom: 50px;
+}
+.screen3-page .car-comparison .section-header h2 {
+	font-weight: 600;
+	font-size: 35px;
+	margin-right: 100px;
+}
+.screen3-page .car-comparison .section-header p {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 26px;
+}
+.screen3-page .car-comparison .comparison-group {
+	text-align: center;
+}
+.screen3-page .car-comparison .comparison-group.active .fa {
+	color: #f6aa00;
+}
+.screen3-page .car-comparison .comparison-group .fa {
+	color: #d7d7d7;
+	display: inline-block;
+	font-size: 70px;
+	margin-bottom: 30px;
+}
+.screen3-page .car-comparison .comparison-group select {
+	border-radius: 0;
+	height: 40px;
+	padding: 8px 12px;
+}
+.screen3-page .car-comparison .comparison-add {
+	border: 2px solid #f6aa00;
+	color: #f6aa00;
+	display: block;
+	border-radius: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 63px 0;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+}
+.screen3-page .car-comparison .comparison-add .fa-car,
+.screen3-page .car-comparison .comparison-add span {
+	display: block;
+}
+.screen3-page .car-comparison .comparison-add .fa-car {
+	color: #d7d7d7;
+	font-size: 70px;
+	margin-bottom: 25px;
+}
+.screen3-page .car-comparison .comparison-add .fa-plus-circle {
+	position: absolute;
+	font-size: 55px;
+	right: 100px;
+	top: 75px;
+}
+.screen3-page .car-comparison .submit {
+	margin-top: 30px;
+	text-align: center;
+}
+.screen3-page .car-comparison .submit input {
+	background-color: #c2c2c2;
+	border-radius: 30px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 1.2rem 3rem;
+}
+.screen3-page .faq {
+	padding: 20px 0 30px;
+}
+.screen3-page .faq h2 {
+	font-weight: 600;
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+.screen3-page .faq .panel {
+	border: none;
+	border-bottom: 1px solid #ddd;
+}
+.screen3-page .faq .panel:last-child {
+	border-bottom: none;
+}
+.screen3-page .faq .panel .panel-heading {
+	background-color: #fff;
+	padding: 15px;
+}
+.screen3-page .faq .panel .panel-heading a {
+	text-decoration: none;
+	font-weight: 600;
+}
+.screen3-page .faq .panel .panel-heading a .faq-icon {
+	display: inline-block;
+	color: #f6aa00;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.screen3-page .faq .panel .panel-body {
+	border: none;
+}
+.screen3-page .contact-us {
+	padding: 30px 0 50px;
+}
+.screen3-page .contact-us h2 {
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+.screen3-page .contact-us .heading {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+.screen3-page .contact-us .heading .fa {
+	color: #f6aa00;
+	display: inline-block;
+	margin-right: 5px;
+	font-size: 20px;
+}
+.screen3-page .contact-us .col {
+	margin-bottom: 30px;
+}
+.screen3-page .contact-us ul li {
+	list-style-type: none;
+	margin-bottom: 2px;
+}
+.screen3-page .contact-us ul li .email {
+	color: #f6aa00;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+/* FOOTER
+--------------------------------- */
+footer {
+	background-color: #323a44;
+}
+footer .top-border {
+	background-color: #f6aa00;
+	height: 12px;
+	width: 100%;
+}
+footer .footer-main {
+	padding: 5rem 0;
+}
+footer .footer-main .footer-brand {
+	margin-bottom: 50px;
+	width: 200px;
+}
+footer .footer-main .footer-brand img {
+	width: 100%;
+}
+footer .footer-main .footer-nav {
+	margin: 0;
+	padding: 0;
+}
+footer .footer-main .footer-nav li {
+	list-style-type: none;
+	display: inline-block;
+}
+footer .footer-main .footer-nav li a {
+	color: #8b8f95;
+	font-weight: 600;
+	padding: .5rem 2rem;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+footer .footer-main .footer-nav li:first-child a {
+	color: #fff;
+	padding-left: 0;
+}
+footer .footer-main .footer-nav li:last-child a {
+	color: #fff;
+}

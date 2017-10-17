@@ -1,0 +1,27 @@
+columns:
+    applicant_id:
+        label: Name
+        type: text
+        searchable: true
+        sortable: true
+    car_model_id:
+        label: 'Car Model'
+        type: text
+        searchable: true
+        sortable: true
+    budget:
+        label: Budget
+        type: text
+        searchable: true
+        sortable: true
+    downpayment:
+        label: Downpayment
+        type: text
+        searchable: true
+        sortable: true
+    points:
+        label: Points
+        type: number
+        searchable: true
+        sortable: true
+        select: 'concat(reward_type, '''' - '''', points)'

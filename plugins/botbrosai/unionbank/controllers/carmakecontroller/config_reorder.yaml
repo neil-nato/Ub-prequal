@@ -1,0 +1,4 @@
+title: CarMakeController
+modelClass: BotbrosAi\UnionBank\Models\CarMake
+toolbar:
+    buttons: reorder_toolbar

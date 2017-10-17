@@ -1,0 +1,22 @@
+fields:
+    applicant_id:
+        label: Applicant
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    car_model_id:
+        label: 'Car Model'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    date_created:
+        label: 'Date Created'
+        oc.commentPosition: ''
+        mode: date
+        span: auto
+        type: datepicker
+    slot_number:
+        label: Slot
+        oc.commentPosition: ''
+        span: auto
+        type: number

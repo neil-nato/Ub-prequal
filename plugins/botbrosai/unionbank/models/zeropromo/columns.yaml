@@ -1,0 +1,28 @@
+columns:
+    title:
+        label: Title
+        type: text
+        searchable: true
+        sortable: true
+    description:
+        label: Description
+        type: text
+        searchable: true
+        sortable: true
+    start_date:
+        label: 'Start Date'
+        type: date
+        searchable: true
+        sortable: true
+    end_date:
+        label: 'End Date'
+        type: date
+        searchable: true
+        sortable: true
+    car_make_id:
+        label: Brand
+        type: text
+        searchable: true
+        sortable: true
+        select: name
+        relation: brand

@@ -1,0 +1,10 @@
+name: FaqController
+form: $/botbrosai/unionbank/models/faq/fields.yaml
+modelClass: BotbrosAi\UnionBank\Models\Faq
+defaultRedirect: botbrosai/unionbank/faqcontroller
+create:
+    redirect: 'botbrosai/unionbank/faqcontroller/update/:id'
+    redirectClose: botbrosai/unionbank/faqcontroller
+update:
+    redirect: botbrosai/unionbank/faqcontroller
+    redirectClose: botbrosai/unionbank/faqcontroller

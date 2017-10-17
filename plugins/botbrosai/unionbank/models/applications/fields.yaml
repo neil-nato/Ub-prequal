@@ -1,0 +1,31 @@
+fields:
+    ref_num:
+        label: 'Ref. Number'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    fname:
+        label: Firstname
+        oc.commentPosition: ''
+        span: left
+        type: text
+    lname:
+        label: Lastname
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    cm_fname:
+        label: 'CM Firstname'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    cm_lname:
+        label: 'CM Lastname'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    page_num:
+        label: 'Page Number'
+        oc.commentPosition: ''
+        span: left
+        type: text

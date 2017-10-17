@@ -1,0 +1,21 @@
+columns:
+    applicant_id:
+        label: Applicant
+        type: text
+        searchable: true
+        sortable: true
+    car_model_id:
+        label: 'Car Model'
+        type: text
+        searchable: true
+        sortable: true
+    date_created:
+        label: Date
+        type: date
+        searchable: true
+        sortable: true
+    slot_number:
+        label: Slot
+        type: number
+        searchable: true
+        sortable: true

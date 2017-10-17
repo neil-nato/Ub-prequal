@@ -1,0 +1,4 @@
+title: HistoryComparisonController
+modelClass: BotbrosAi\UnionBank\Models\HistoryComparison
+toolbar:
+    buttons: reorder_toolbar

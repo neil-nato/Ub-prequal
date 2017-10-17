@@ -1,0 +1,7 @@
+columns:
+    fname:
+        label: Name
+        type: text
+        searchable: true
+        sortable: true
+        select: 'concat(fname, '' '', lname)'

@@ -1,0 +1,44 @@
+fields:
+    brand:
+        label: Brand
+        oc.commentPosition: ''
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        required: 1
+        type: relation
+        placeholder: 'Select brand'
+    zeropromo:
+        label: 'Zero Promo'
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        defaultFrom: brand
+        dependsOn:
+            - brand
+        type: dropdown
+        placeholder: 'Select brand first'
+    model:
+        label: Model
+        oc.commentPosition: ''
+        span: left
+        required: 1
+        type: text
+    srp:
+        label: SRP
+        oc.commentPosition: ''
+        span: left
+        required: 1
+        type: text
+    downpayment:
+        label: Downpayment
+        oc.commentPosition: ''
+        span: left
+        required: 1
+        type: text
+    term:
+        label: 'Term (Monthly)'
+        oc.commentPosition: ''
+        span: left
+        required: 1
+        type: text

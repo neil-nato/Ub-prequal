@@ -1,0 +1,11 @@
+title: ApplicantController
+modelClass: BotbrosAi\UnionBank\Models\Applicant
+list: $/botbrosai/unionbank/models/applicant/columns.yaml
+recordUrl: 'botbrosai/unionbank/applicantcontroller/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

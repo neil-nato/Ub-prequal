@@ -1,0 +1,54 @@
+fields:
+    brand:
+        label: Brand
+        oc.commentPosition: ''
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        required: 1
+        type: relation
+    title:
+        label: Title
+        size: ''
+        oc.commentPosition: ''
+        span: left
+        required: 1
+        type: textarea
+    description:
+        label: Description
+        size: ''
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: textarea
+    start_date:
+        label: 'Start Date'
+        oc.commentPosition: ''
+        mode: date
+        span: left
+        required: 1
+        type: datepicker
+        default: now
+        minDate: now
+    end_date:
+        label: 'End Date'
+        oc.commentPosition: ''
+        mode: date
+        span: auto
+        required: 1
+        type: datepicker
+        default: now
+        minDate: now
+    promo_image:
+        label: 'Promo Image'
+        oc.commentPosition: ''
+        mode: image
+        imageWidth: '300'
+        imageHeight: '150'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        required: 1
+        type: fileupload

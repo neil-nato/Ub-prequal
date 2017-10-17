@@ -1,0 +1,10 @@
+name: HistoryComparisonController
+form: $/botbrosai/unionbank/models/historycomparison/fields.yaml
+modelClass: BotbrosAi\UnionBank\Models\HistoryComparison
+defaultRedirect: botbrosai/unionbank/historycomparisoncontroller
+create:
+    redirect: 'botbrosai/unionbank/historycomparisoncontroller/update/:id'
+    redirectClose: botbrosai/unionbank/historycomparisoncontroller
+update:
+    redirect: botbrosai/unionbank/historycomparisoncontroller
+    redirectClose: botbrosai/unionbank/historycomparisoncontroller

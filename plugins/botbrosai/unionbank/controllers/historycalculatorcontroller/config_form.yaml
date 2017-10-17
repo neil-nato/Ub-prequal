@@ -1,0 +1,10 @@
+name: HistoryCalculatorController
+form: $/botbrosai/unionbank/models/historycalculator/fields.yaml
+modelClass: BotbrosAi\UnionBank\Models\HistoryCalculator
+defaultRedirect: botbrosai/unionbank/historycalculatorcontroller
+create:
+    redirect: 'botbrosai/unionbank/historycalculatorcontroller/update/:id'
+    redirectClose: botbrosai/unionbank/historycalculatorcontroller
+update:
+    redirect: botbrosai/unionbank/historycalculatorcontroller
+    redirectClose: botbrosai/unionbank/historycalculatorcontroller

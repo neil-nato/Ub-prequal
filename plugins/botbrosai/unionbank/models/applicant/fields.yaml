@@ -1,0 +1,21 @@
+fields:
+    prequalification_code:
+        label: 'Prequalification Code'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    otp_code:
+        label: 'OTP Code'
+        oc.commentPosition: ''
+        span: auto
+        type: number
+    fname:
+        label: Firstname
+        oc.commentPosition: ''
+        span: left
+        type: text
+    lname:
+        label: Lastname
+        oc.commentPosition: ''
+        span: auto
+        type: text

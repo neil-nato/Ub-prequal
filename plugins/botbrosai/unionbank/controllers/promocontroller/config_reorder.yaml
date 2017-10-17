@@ -1,0 +1,4 @@
+title: PromoController
+modelClass: BotbrosAi\UnionBank\Models\Promo
+toolbar:
+    buttons: reorder_toolbar

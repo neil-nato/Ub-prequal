@@ -1,0 +1,36 @@
+fields:
+    applicant_id:
+        label: Name
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    car_model_id:
+        label: 'Car Model'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    budget:
+        label: Budget
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    downpayment:
+        label: Downpayment
+        oc.commentPosition: ''
+        span: left
+        type: text
+    terms:
+        label: Terms
+        oc.commentPosition: ''
+        span: left
+        type: text
+    reward_type:
+        label: 'Reward Type'
+        oc.commentPosition: ''
+        span: left
+        type: text
+    points:
+        label: Points
+        oc.commentPosition: ''
+        span: auto
+        type: number

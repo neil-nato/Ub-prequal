@@ -1,0 +1,19 @@
+fields:
+    name:
+        label: Brand
+        span: auto
+        oc.commentPosition: ''
+        required: 1
+        type: text
+    brand_logo:
+        label: 'File upload'
+        oc.commentPosition: ''
+        mode: image
+        imageWidth: '160'
+        imageHeight: '140'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload

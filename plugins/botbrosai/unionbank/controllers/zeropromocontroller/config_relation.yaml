@@ -1,0 +1,8 @@
+zeropromoo:
+  label: Car Model
+  view:
+    list: $/botbrosai/unionbank/models/zeropromocar/columns.yaml
+    toolbarButtons: remove
+    showCheckBoxes: false
+  manage:
+    form: $/botbrosai/unionbank/models/zeropromocar/fields.yaml

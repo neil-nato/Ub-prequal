@@ -1,0 +1,35 @@
+columns:
+    car_make_id:
+        label: Brand
+        type: text
+        searchable: true
+        sortable: true
+        select: name
+        relation: brand
+    model:
+        label: Model
+        type: text
+        searchable: true
+        sortable: true
+    srp:
+        label: SRP
+        type: text
+        searchable: true
+        sortable: true
+    downpayment:
+        label: Downpayment
+        type: text
+        searchable: true
+        sortable: true
+    term:
+        label: Term(Monthly)
+        type: text
+        searchable: true
+        sortable: true
+    zero_promo_id:
+        label: 'Zero Promo'
+        type: text
+        searchable: true
+        sortable: true
+        select: title
+        relation: zeropromo

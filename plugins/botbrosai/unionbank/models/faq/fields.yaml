@@ -1,0 +1,14 @@
+fields:
+    question:
+        label: Question
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    answer:
+        label: Answer
+        size: large
+        oc.commentPosition: ''
+        span: left
+        required: 1
+        type: textarea

@@ -1,0 +1,4 @@
+title: CarModelController
+modelClass: BotbrosAi\UnionBank\Models\CarModel
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,4 @@
+title: ApplicationsController
+modelClass: BotbrosAi\UnionBank\Models\Applications
+toolbar:
+    buttons: reorder_toolbar

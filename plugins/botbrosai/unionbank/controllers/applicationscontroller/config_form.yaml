@@ -1,0 +1,10 @@
+name: ApplicationsController
+form: $/botbrosai/unionbank/models/applications/fields.yaml
+modelClass: BotbrosAi\UnionBank\Models\Applications
+defaultRedirect: botbrosai/unionbank/applicationscontroller
+create:
+    redirect: 'botbrosai/unionbank/applicationscontroller/update/:id'
+    redirectClose: botbrosai/unionbank/applicationscontroller
+update:
+    redirect: botbrosai/unionbank/applicationscontroller
+    redirectClose: botbrosai/unionbank/applicationscontroller

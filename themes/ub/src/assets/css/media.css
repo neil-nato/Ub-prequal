@@ -1,0 +1,62 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    header .navbar .navbar-brand img {
+        width: 80%;
+    }
+    footer .footer-main .footer-brand {
+        width: 100%;
+    }
+    footer .footer-main .footer-brand a {
+        display: block;
+        text-align: center;
+    }
+    footer .footer-main .footer-brand a img {
+        width: 30%;
+    }
+    footer .footer-main .footer-nav li {
+        display: block;   
+    }
+    footer .footer-main .footer-nav li a {
+        display: block;
+        text-align: center;
+        padding: .5rem 2rem !important;
+    }
+    .content-banner .col:nth-child(2) form {
+        margin: 0;
+    }
+    .calculator-page .calc-forms .overlay {
+        left: 0;
+        width: 100%;
+    }
+    .calculator-page .calc-forms form {
+        margin: 0;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .content-banner .banner-text {
+        margin-left: 2rem;
+        margin-bottom: 3rem;
+    }
+    footer .footer-main .footer-brand a img {
+        width: 40%;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    header .navbar .navbar-brand img {
+        width: 70%;
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}

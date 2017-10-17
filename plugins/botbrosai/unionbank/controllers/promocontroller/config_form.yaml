@@ -1,0 +1,10 @@
+name: PromoController
+form: $/botbrosai/unionbank/models/promo/fields.yaml
+modelClass: BotbrosAi\UnionBank\Models\Promo
+defaultRedirect: botbrosai/unionbank/promocontroller
+create:
+    redirect: 'botbrosai/unionbank/promocontroller/update/:id'
+    redirectClose: botbrosai/unionbank/promocontroller
+update:
+    redirect: botbrosai/unionbank/promocontroller
+    redirectClose: botbrosai/unionbank/promocontroller

@@ -1,0 +1,4 @@
+title: HistoryCalculatorController
+modelClass: BotbrosAi\UnionBank\Models\HistoryCalculator
+toolbar:
+    buttons: reorder_toolbar

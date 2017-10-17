@@ -1,0 +1,42 @@
+columns:
+    car_make_id:
+        label: Brand
+        type: text
+        searchable: true
+        sortable: true
+        select: name
+        relation: brand
+    model:
+        label: Model
+        type: text
+        searchable: true
+        sortable: true
+    variant:
+        label: Variant
+        type: text
+        searchable: true
+        sortable: true
+    gas:
+        label: Gas
+        type: text
+        searchable: true
+        invisible: false
+        sortable: true
+    engine_type:
+        label: 'Engine Type'
+        type: text
+        searchable: true
+        invisible: false
+        sortable: true
+    price:
+        label: Price
+        type: number
+        searchable: true
+        sortable: true
+        select: 'concat(''₱ '', price)'
+    views_increment:
+        label: Views
+        type: number
+        searchable: true
+        invisible: true
+        sortable: true

@@ -1,0 +1,4 @@
+title: ZeroPromoController
+modelClass: BotbrosAi\UnionBank\Models\ZeroPromo
+toolbar:
+    buttons: reorder_toolbar

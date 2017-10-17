@@ -1,0 +1,10 @@
+name: CarModelController
+form: $/botbrosai/unionbank/models/carmodel/fields.yaml
+modelClass: BotbrosAi\UnionBank\Models\CarModel
+defaultRedirect: botbrosai/unionbank/carmodelcontroller
+create:
+    redirect: 'botbrosai/unionbank/carmodelcontroller/update/:id'
+    redirectClose: botbrosai/unionbank/carmodelcontroller
+update:
+    redirect: botbrosai/unionbank/carmodelcontroller
+    redirectClose: botbrosai/unionbank/carmodelcontroller

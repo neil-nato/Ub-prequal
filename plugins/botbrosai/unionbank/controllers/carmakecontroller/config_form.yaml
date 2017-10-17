@@ -1,0 +1,10 @@
+name: CarMakeController
+form: $/botbrosai/unionbank/models/carmake/fields.yaml
+modelClass: BotbrosAi\UnionBank\Models\CarMake
+defaultRedirect: botbrosai/unionbank/carmakecontroller
+create:
+    redirect: 'botbrosai/unionbank/carmakecontroller/update/:id'
+    redirectClose: botbrosai/unionbank/carmakecontroller
+update:
+    redirect: botbrosai/unionbank/carmakecontroller
+    redirectClose: botbrosai/unionbank/carmakecontroller

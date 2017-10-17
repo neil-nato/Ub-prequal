@@ -1,0 +1,10 @@
+name: ZeroPromoController
+form: $/botbrosai/unionbank/models/zeropromo/fields.yaml
+modelClass: BotbrosAi\UnionBank\Models\ZeroPromo
+defaultRedirect: botbrosai/unionbank/zeropromocontroller
+create:
+    redirect: 'botbrosai/unionbank/zeropromocontroller/update/:id'
+    redirectClose: botbrosai/unionbank/zeropromocontroller
+update:
+    redirect: botbrosai/unionbank/zeropromocontroller
+    redirectClose: botbrosai/unionbank/zeropromocontroller

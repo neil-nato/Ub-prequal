@@ -1,0 +1,38 @@
+plugin:
+    name: 'botbrosai.unionbank::lang.plugin.name'
+    description: 'botbrosai.unionbank::lang.plugin.description'
+    author: 'BotBros Ai'
+    icon: oc-icon-database
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: FAQ
+        url: botbrosai/unionbank/faqcontroller
+        icon: icon-bars
+    main-menu-item3:
+        label: 'Car Model'
+        url: botbrosai/unionbank/carmodelcontroller
+        icon: icon-bars
+        sideMenu:
+            side-menu-item:
+                label: 'Car Make'
+                url: botbrosai/unionbank/carmakecontroller
+                icon: icon-sitemap
+    main-menu-item4:
+        label: 'Zero Promo'
+        url: botbrosai/unionbank/zeropromocontroller
+        icon: icon-bars
+        sideMenu:
+            side-menu-item:
+                label: 'Zero Promo Car'
+                url: botbrosai/unionbank/zeropromocarcontroller
+                icon: icon-sitemap
+    main-menu-item5:
+        label: Applications
+        url: botbrosai/unionbank/applicationscontroller
+        icon: icon-bars
+        sideMenu:
+            side-menu-item:
+                label: Applicants
+                url: botbrosai/unionbank/applicantcontroller
+                icon: icon-sitemap
