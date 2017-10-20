@@ -72,7 +72,7 @@ app.use(staticPath, express.static('./static'));
 
 // browser sync
 browserSync({
-    proxy: 'localhost:8000[D[D[D[D[D[D[D[D[D[D[D[D[D[Dhttp://localhost:8000',
+    proxy: 'http://localhost:8000',
     open: false,
     middleware: [
         devMiddleware,
