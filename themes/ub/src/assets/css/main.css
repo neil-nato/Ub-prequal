@@ -11,53 +11,6 @@ body {
     height: 100%;
     width: 100%;
 }
-.btn-main {
-	background-color: #f6aa00;
-	color: #fff;
-}
-.btn-main:hover {
-	color: #fff;
-}
-.btn-main-inverse {
-	border: 1px solid #f6aa00;
-	color: #f6aa00;
-}
-.btn-gray {
-	background-color: #878787;
-	color: #fff;
-}
-
-/* HEADER
---------------------------------- */
-header {
-	background-color: #323a44;
-}
-header .navbar {
-	margin-bottom: 0;
-}
-header .navbar .navbar-brand {
-	color: #fff;
-	width: 230px;
-}
-header .navbar .navbar-toggle {
-	background-color: #333;
-	border-color: #333;
-}
-header .navbar .navbar-toggle .icon-bar {
-	background-color: #fff;
-}
-header .navbar .navbar-brand img {
-	width: 100%;
-}
-header .navbar .navbar-nav li a {
-	color: #fff;
-}
-header .navbar .navbar-nav li a:hover,
-header .navbar .navbar-nav li a:focus {
-	background-color: #323a44;
-	color: #fff;
-}
-
 /* CONTENT BANNER
 --------------------------------- */
 .content-banner {

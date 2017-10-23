@@ -1,0 +1,40 @@
+h1,
+h2 {
+    font-weight: 300;
+}
+
+
+header {
+	background-color: #323a44;
+
+  .navbar {
+  	margin-bottom: 0;
+
+    .navbar-brand {
+    	color: #fff;
+    	width: 230px;
+    }
+
+    .navbar-toggle {
+    	background-color: #333;
+    	border-color: #333;
+
+      .icon-bar {
+      	background-color: #fff;
+      }
+    }
+
+    .navbar-brand img {
+    	width: 100%;
+    }
+
+    .navbar-nav li a {
+    	color: #fff;
+
+      &:hover, &:focus {
+        background-color: #323a44;
+        color: #fff;
+      }
+    }
+  }
+}
