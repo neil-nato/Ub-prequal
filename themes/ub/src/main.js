@@ -4,7 +4,11 @@ import VueRouter from 'vue-router';
 import { store } from './store';
 
 
-//components import
+// Common
+import head from './common/header.vue';
+import foot from './common/footer.vue';
+
+// Components import
 import welcome from './components/welcome';
 import info from './components/info.vue';
 import contact from './components/contact.vue';
@@ -17,11 +21,11 @@ import faq from './components/faq.vue';
 // set up our global plugins and utilities
 require('./app/boot');
 
-// common
+//Common components
+Vue.component('heading', head );
+Vue.component('footing', foot);
 
-
-//components
-
+//Main Components
 Vue.component('welcome', welcome );
 Vue.component('info', info);
 Vue.component('contact', contact );
