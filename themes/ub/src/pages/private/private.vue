@@ -1,6 +1,6 @@
 <template>
     <main class="screen3-page">
-        <Welcome />
+        <welcome />
         <info />
         <loan-calculator />
         <zero-promo />
