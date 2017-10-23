@@ -3,6 +3,8 @@
 
 <template>
     <div id="app">
+        <!-- <heading />  -->
         <router-view />
+        <footing />
     </div>
 </template>
