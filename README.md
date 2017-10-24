@@ -32,35 +32,36 @@ If you plan on using a database, run this command:
 ```shell
 php artisan october:install
 ```
+---
 
-### Development Team
+### Development Setup
 
-October was created by [Alexey Bobkov](http://ca.linkedin.com/pub/aleksey-bobkov/2b/ba0/232) and [Samuel Georges](https://www.linkedin.com/in/samuel-georges-0a964131/), who both continue to develop the platform.
+To install Composer Dependencies at root folder
 
-### Foundation library
+``` shell
+composer install
+```
 
-The CMS uses [Laravel](http://laravel.com) as a foundation PHP framework.
+To install NPM Dependencies go to themes/ub
 
-### Contact
+``` shell
+npm install
+```
 
-You can communicate with us using the following mediums:
+### Run Local Server
 
-* [Follow us on Twitter](http://twitter.com/octobercms) for announcements and updates.
-* [Follow us on Facebook](http://facebook.com/octobercms) for announcements and updates.
-* [Join us on IRC](http://octobercms.com/chat) to chat with us.
+``` shell
+php artisan serve
+```
+Default url http://127.0.0.1:8000
 
-### License
+### Run Dev Server
 
-The OctoberCMS platform is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+- Go to themes/ub
 
-### Contributing
+``` shell
+npm run dev
+```
 
-Before sending a Pull Request, be sure to review the [Contributing Guidelines](CONTRIBUTING.md) first.
-
-### Coding standards
-
-Please follow the following guides and code standards:
-
-* [PSR 4 Coding Standards](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md)
-* [PSR 2 Coding Style Guide](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)
-* [PSR 1 Coding Standards](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md)
+Default url http://127.0.0.1:3000
+Default url of BrowserSync http://localhost:3001
