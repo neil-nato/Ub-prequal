@@ -11,6 +11,14 @@ import welcome from './welcome';
 import infoCol from './infoCol.vue';
 import infoSection from './infoSection.vue';
 
+//Calculator
+import calculator from './CalculatorSection.vue';
+import carCol from './calculatorApp/CarCol.vue';
+import budgetCol from './calculatorApp/BudgetCol.vue';
+import summarCol from './calculatorApp/SummaryCol.vue';
+import budgetTab from './calculatorApp/StartBudgetTab.vue';
+import carTab from './calculatorApp/StartCarTab.vue';
+
 import contact from './contact.vue';
 import compare from './compare.vue';
 import loanCalculator from './loancalculator.vue';
@@ -23,6 +31,14 @@ export default {
     //common components
     'heading' : head,
     'footing' : foot,
+
+    //Calculator
+    'calculator-section': calculator,
+    'car-col': carCol,
+    'budget-col': budgetCol,
+    'summary-col': summarCol,
+    'start-budget-tab': budgetTab,
+    'start-car-tab': carTab,
 
     //components
     'welcome' :  welcome,
