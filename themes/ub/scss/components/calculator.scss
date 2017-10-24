@@ -1,0 +1,165 @@
+.calculator-page {
+  .back-home {
+    color: #f6aa00;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  .content-banner .col {
+    height: 500px;
+    .banner-text {
+      margin-bottom: 12rem;
+    }
+  }
+  .calc-forms {
+    .calc-header {
+      padding: 50px 0 25px;
+      h2 {
+        font-weight: 600;
+      }
+    }
+    .forms-wrapper {
+      border-top: 1px solid #f6aa00;
+      border-bottom: 1px solid #f6aa00;
+    }
+    form {
+      padding: 50px 20px;
+    }
+    .overlay {
+      background-color: rgba(128, 128, 128, 0.6);
+      position: absolute;
+      height: 100%;
+      left: -25%;
+      width: 150%;
+    }
+    form {
+      h3 {
+        color: #f6aa00;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+      select {
+        border-radius: 0;
+      }
+      input {
+        &[type="text"] {
+          border-radius: 0;
+        }
+        &[type="submit"] {
+          border-radius: 25px;
+          font-weight: 600;
+          margin-top: 20px;
+          padding: 0.8rem 4rem;
+        }
+      }
+    }
+  }
+  .summary {
+    padding: 6rem 0;
+    h2 {
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+    .car-model {
+      color: #f6aa00;
+      font-weight: 600;
+      font-size: 22px;
+      margin-bottom: 50px;
+      text-transform: uppercase;
+    }
+    .car-price-info {
+      border-left: 4px solid #f9d78c;
+      margin-bottom: 50px;
+      padding-left: 30px;
+      .price-info {
+        padding-right: 100px;
+        margin-bottom: 40px;
+      }
+      .price-amount {
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+      .price-type {
+        font-weight: 600;
+        font-size: 17px;
+        text-transform: uppercase;
+      }
+    }
+    .apply-loan-form {
+      .form-group label {
+        font-size: 17px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      .amount-required {
+        font-size: 22px;
+        i {
+          color: #f6aa00;
+        }
+      }
+      .amount-required-text {
+        font-size: 15px;
+        font-weight: 600;
+        width: 80%;
+      }
+      .select-award > p {
+        color: #f6aa00;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+      }
+      .award-list {
+        padding: 0;
+        margin: 0 0 50px;
+        li {
+          list-style-type: none;
+          margin: 0 15px 15px 0;
+          a {
+            border: 2px solid #f9d78c;
+            border-radius: 20px;
+            color: #aaa;
+            display: block;
+            height: 115px;
+            padding: 1rem 2rem;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            width: 18rem;
+            &.active {
+              background-color: #f6aa00;
+              border: 1px solid #f6aa00;
+              color: #fff;
+            }
+            img {
+              width: 55%;
+            }
+            i {
+              color: #f6aa00;
+              font-size: 50px;
+            }
+            .fa-check {
+              font-size: 40px;
+              position: absolute;
+              top: 10px;
+              right: 10px;
+            }
+          }
+          p {
+            margin: 10px 0 0;
+            font-size: 17px;
+          }
+        }
+      }
+      .btn {
+        border-radius: 25px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        min-width: 330px;
+        padding: 1rem 5rem;
+      }
+    }
+  }
+}

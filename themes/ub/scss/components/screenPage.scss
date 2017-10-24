@@ -1,0 +1,247 @@
+.screen3-page {
+  .content-banner .col {
+    height: 500px;
+    .banner-text {
+      margin-bottom: 12rem;
+    }
+  }
+  .basic-info {
+    padding: 40px 0;
+    h2 {
+      font-weight: 600;
+      margin-bottom: 50px;
+    }
+    .col {
+      .fa {
+        color: #f6aa00;
+        display: inline-block;
+        font-size: 60px;
+        margin: 0 0 30px 20px;
+      }
+      .info-title {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .loan-calc {
+    padding: 40px 0;
+    h2 {
+      font-weight: 600;
+      margin-bottom: 40px;
+    }
+    .col {
+      p {
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 30px;
+        width: 85%;
+      }
+      > img {
+        width: 100%;
+      }
+      .actions {
+        .pull-left {
+          text-align: center;
+          padding: 20px;
+        }
+        .fa {
+          color: #f6aa00;
+          display: block;
+          font-size: 60px;
+          margin-bottom: 15px;
+        }
+        a {
+          border-radius: 25px;
+          display: inline-block;
+          font-size: 18px;
+          font-weight: 600;
+          padding: 1rem 3rem;
+        }
+      }
+    }
+  }
+  .interest-promo {
+    background-color: #f5f5f5;
+    .background-img {
+      background: url(../assets/images/car-model.png) no-repeat;
+      background-size: cover;
+      height: 100%;
+    }
+    .promo-content {
+      padding: 50px 70px;
+      h2 {
+        font-weight: 600;
+        margin-bottom: 30px;
+      }
+      .promo-desc {
+        font-weight: 600;
+        font-size: 17px;
+        margin-bottom: 50px;
+      }
+    }
+    .promo-form {
+      .field-group {
+        margin-bottom: 10px;
+        select {
+          border-radius: 0;
+          font-weight: 600;
+          margin-right: 40px;
+          margin-bottom: 20px;
+          width: 250px;
+        }
+        input[type="submit"] {
+          border-radius: 25px;
+          display: inline-block;
+          font-size: 18px;
+          font-weight: 600;
+          margin-bottom: 20px;
+          padding: 0.6rem 3rem;
+        }
+      }
+      .promo-price {
+        font-weight: 600;
+        font-size: 15px;
+        margin-bottom: 100px;
+      }
+      .promo-valid {
+        font-weight: 600;
+        font-size: 13px;
+      }
+    }
+  }
+  .car-comparison {
+    padding: 50px 0 30px;
+    .section-header {
+      margin-bottom: 50px;
+      h2 {
+        font-weight: 600;
+        font-size: 35px;
+        margin-right: 100px;
+      }
+      p {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+    .comparison-group {
+      text-align: center;
+      &.active .fa {
+        color: #f6aa00;
+      }
+      .fa {
+        color: #d7d7d7;
+        display: inline-block;
+        font-size: 70px;
+        margin-bottom: 30px;
+      }
+      select {
+        border-radius: 0;
+        height: 40px;
+        padding: 8px 12px;
+      }
+    }
+    .comparison-add {
+      border: 2px solid #f6aa00;
+      color: #f6aa00;
+      display: block;
+      border-radius: 20px;
+      font-size: 20px;
+      font-weight: 600;
+      padding: 63px 0;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      .fa-car, span {
+        display: block;
+      }
+      .fa-car {
+        color: #d7d7d7;
+        font-size: 70px;
+        margin-bottom: 25px;
+      }
+      .fa-plus-circle {
+        position: absolute;
+        font-size: 55px;
+        right: 100px;
+        top: 75px;
+      }
+    }
+    .submit {
+      margin-top: 30px;
+      text-align: center;
+      input {
+        background-color: #c2c2c2;
+        border-radius: 30px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 1.2rem 3rem;
+      }
+    }
+  }
+  .faq {
+    padding: 20px 0 30px;
+    h2 {
+      font-weight: 600;
+      font-size: 35px;
+      margin-bottom: 30px;
+    }
+    .panel {
+      border: none;
+      border-bottom: 1px solid #ddd;
+      &:last-child {
+        border-bottom: none;
+      }
+      .panel-heading {
+        background-color: #fff;
+        padding: 15px;
+        a {
+          text-decoration: none;
+          font-weight: 600;
+          .faq-icon {
+            display: inline-block;
+            color: #f6aa00;
+            font-size: 20px;
+            margin-right: 10px;
+          }
+        }
+      }
+      .panel-body {
+        border: none;
+      }
+    }
+  }
+  .contact-us {
+    padding: 30px 0 50px;
+    h2 {
+      font-weight: 600;
+      margin-bottom: 50px;
+    }
+    .heading {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 15px;
+      .fa {
+        color: #f6aa00;
+        display: inline-block;
+        margin-right: 5px;
+        font-size: 20px;
+      }
+    }
+    .col {
+      margin-bottom: 30px;
+    }
+    ul li {
+      list-style-type: none;
+      margin-bottom: 2px;
+      .email {
+        color: #f6aa00;
+        font-weight: 600;
+        text-decoration: underline;
+      }
+    }
+  }
+}

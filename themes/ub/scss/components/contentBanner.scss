@@ -1,0 +1,82 @@
+.content-banner {
+  background: url(../assets/images/banner.png) no-repeat;
+  background-size: cover;
+  color: #fff;
+  .banner {
+    position: relative;
+    min-height: 300px;
+    height: 88%;
+  }
+  .banner-text {
+    margin-left: 7rem;
+    margin-bottom: 5rem;
+    bottom: 0;
+    position: absolute;
+    h3 {
+      font-size: 2.75rem;
+    }
+    p {
+      font-size: 19px;
+      font-weight: 600;
+    }
+  }
+  .col:nth-child(2) {
+    background-color: rgba(255, 255, 255, 0.92);
+    color: #4c4c4c;
+    form {
+      padding: 7.5rem 2rem;
+      .input-text {
+        label {
+          font-weight: 600;
+          font-size: 18px;
+        }
+        p {
+          font-size: 15px;
+          margin-bottom: 30px;
+        }
+      }
+      .input-submit {
+        text-align: center;
+        input {
+          border-radius: 25px;
+          font-weight: 600;
+          padding: 1rem 5rem;
+        }
+      }
+    }
+  }
+}
+
+
+//PRE QUALIFICATION PAGE AND OTP PAGE
+.content-banner {
+  .pre-qualify-form form .input-text input[type="text"] {
+    border-radius: 0;
+    margin-bottom: 170px;
+  }
+  .otp-form form {
+    .input-text input[type="text"] {
+      background-color: inherit;
+      border: 0;
+      border-radius: 0;
+      border-bottom: 2px solid #bdbdbd;
+      box-shadow: none;
+      margin-bottom: 170px;
+    }
+    .input-submit {
+      input {
+        margin-bottom: 20px;
+      }
+      p {
+        span {
+          color: #f6aa00;
+        }
+        a {
+          color: #f6aa00;
+          font-weight: 600;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
