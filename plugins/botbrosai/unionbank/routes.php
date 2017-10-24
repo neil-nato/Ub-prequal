@@ -19,11 +19,10 @@ Route::post('api/unionbank/prequalification-code', 'botbrosai\unionbank\controll
 //OTP
 Route::post('api/unionbank/otp', 'botbrosai\unionbank\controllers\ApplicantController@otpCheck');
 
-//CAR MODEL
-Route::get('api/unionbank/car/list', 'botbrosai\unionbank\controllers\CarMakeController@carList');
-
 //INCREMENT CAR VIEW
 Route::get('api/unionbank/car/view-increment/{id}', 'botbrosai\unionbank\controllers\CarMakeController@carViewIncrement');
 
+// CAR LIST
+Route::get('/api/data', 'botbrosai\unionbank\controllers\GuzzleController@getRemoteData');
+Route::get('/api/ammort','botbrosai\unionbank\controllers\GuzzleController@calculateAmmort');
 ?>
-
