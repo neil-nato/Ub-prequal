@@ -7,7 +7,10 @@ import foot from '../common/footer.vue';
 
 //components
 import welcome from './welcome';
-import info from './info.vue';
+
+import infoCol from './infoCol.vue';
+import infoSection from './infoSection.vue';
+
 import contact from './contact.vue';
 import compare from './compare.vue';
 import loanCalculator from './loancalculator.vue';
@@ -23,7 +26,8 @@ export default {
 
     //components
     'welcome' :  welcome,
-    'info' :  info,
+    'info-col' :  infoCol,
+    'info-section' : infoSection,
     'contact' :  contact,
     'compare' :  compare,
     'loan-calculator' :  loanCalculator,

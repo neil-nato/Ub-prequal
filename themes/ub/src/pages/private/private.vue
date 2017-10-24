@@ -1,7 +1,7 @@
 <template>
     <main class="screen3-page">
         <welcome />
-        <info />
+        <info-section />
         <loan-calculator />
         <zero-promo />
         <compare />
