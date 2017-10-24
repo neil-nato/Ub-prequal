@@ -1,6 +1,7 @@
 import Otp from 'src/pages/public/otp';
 import Prequal from 'src/pages/public/prequal';
 import Private from 'src/pages/private/private';
+import Calculator from 'src/pages/private/calculatorPage';
 
 export default [
     {
@@ -17,5 +18,10 @@ export default [
         name: 'Private',
         path: '/private',
         component: Private,
+    },
+    {
+        name: 'Calculator',
+        path: '/calculator',
+        component: Calculator,
     },
 ];
