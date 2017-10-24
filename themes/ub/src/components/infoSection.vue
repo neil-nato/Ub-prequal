@@ -3,10 +3,11 @@
       <div class="container">
           <h2>Basic Title Information</h2>
           <div class="row">
-              <info-col v-for="alias in info"
-              :title='alias.title'
-              :icon="alias.icon"
-              :description='alias.description'
+              <info-col v-for="(alias, key) in info"
+                        key='key'
+                        :title='alias.title'
+                        :icon="alias.icon"
+                        :description='alias.description'
               />
 
           </div>
