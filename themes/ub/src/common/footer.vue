@@ -6,7 +6,7 @@
       <div class="container">
         <div class="footer-brand">
           <a href="#">
-            <img src="themes/ub/src/assets/images/logo.png" alt="UnionBank Logo">
+            <img src="themes/ub/assets/images/logo.png" alt="UnionBank Logo">
           </a>
         </div>
 

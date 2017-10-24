@@ -10,10 +10,9 @@
             <span class="icon-bar"></span>
           </button>
               <a class="navbar-brand" href="/">
-                <img src="themes/ub/src/assets/images/logo.png" alt="UnionBank Logo">
+                <img src="themes/ub/assets/images/logo.png" alt="UnionBank Logo">
               </a>
             </div>
-
             <div class="collapse navbar-collapse" id="headerNavbarCollapse">
                 <ul class="nav navbar-nav navbar-right">
                   <li v-for="alias in nav">
@@ -47,7 +46,7 @@ export default {
                     menu : 'Log In',
                     menuLinks : 'login',
                 },
-            ],            
+            ],
         };
     },
 };
