@@ -11,34 +11,9 @@
         </div>
 
         <ul class="footer-nav">
-          <li>
-            <a href="#">
-              UnionBankph.com
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              FAQ
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              Contact Us
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              Terms and Conditions
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              Privacy Policy
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              Getgo.com.ph
+          <li v-for="items in nav">
+            <a :href="items.menuLinks">
+              {{ items.menu }}
             </a>
           </li>
         </ul>
