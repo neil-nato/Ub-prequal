@@ -1,6 +1,7 @@
-// This file should reference all of our global styles
-// that output css. It should be included only from
-// root component from a non-scoped style block.
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+$roboto :  'Roboto', sans-serif;
+$opensans : 'Open Sans', sans-serif;
 
 //
 // Dependencies
@@ -16,6 +17,7 @@
 @import './components/buttons';
 @import './components/contentBanner';
 @import './components/calculator';
+@import './components/calculatorSection';
 @import './components/screenPage';
 @import './components/footer';
 
