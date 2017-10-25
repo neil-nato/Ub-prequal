@@ -37,12 +37,14 @@ import zeroPromo from './zeropromo.vue';
 import promo from './promo.vue';
 import faq from './faq.vue';
 
+import VueUploadComponent from 'vue-upload-component';
 import devNav from './devTools/devNav.vue';
 
 export default {
     //common components
     'heading' : head,
     'footing' : foot,
+    'file-upload' : VueUploadComponent,
 
     //Calculator
     'calculator-section': calculator,
