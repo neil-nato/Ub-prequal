@@ -1,13 +1,13 @@
 import Otp from 'src/pages/public/otp';
-import Prequal from 'src/pages/public/prequal';
+import Home from 'src/pages/public/home';
 import Private from 'src/pages/private/private';
 import Calculator from 'src/pages/private/calculatorPage';
 
 export default [
     {
-        name: 'Prequal',
+        name: 'Home',
         path: '/',
-        component: Prequal,
+        component: Home,
     },
     {
         name: 'Otp',
