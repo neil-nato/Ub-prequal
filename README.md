@@ -48,6 +48,12 @@ To install NPM Dependencies go to themes/ub
 npm install
 ```
 
+To build assets
+
+``` shell
+npm run build
+```
+
 ### Run Local Server
 
 ``` shell
@@ -65,3 +71,26 @@ npm run dev
 
 Default url http://127.0.0.1:3000
 Default url of BrowserSync http://localhost:3001
+
+
+---
+
+### Common Errors
+
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/tmp/mysql.sock'
+``` shell
+mysqld stop
+mysql.server start
+```
+
+Database error
+
+```shell
+php artisan october:up
+```
+
+In Fresh Clone, Page not Found
+``` shell
+npm run build
+```
+Then run dev server.
