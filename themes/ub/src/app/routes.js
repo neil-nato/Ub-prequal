@@ -1,13 +1,15 @@
 import Otp from 'src/pages/public/otp';
-import Prequal from 'src/pages/public/prequal';
+import Home from 'src/pages/public/home';
 import Private from 'src/pages/private/private';
 import Calculator from 'src/pages/private/calculatorPage';
+import Apply from 'src/pages/private/ApplyPage';
+import CoMaker from 'src/pages/private/CoMakerPage';
 
 export default [
     {
-        name: 'Prequal',
+        name: 'Home',
         path: '/',
-        component: Prequal,
+        component: Home,
     },
     {
         name: 'Otp',
@@ -23,5 +25,15 @@ export default [
         name: 'Calculator',
         path: '/calculator',
         component: Calculator,
+    },
+    {
+        name: 'Apply',
+        path: '/apply',
+        component: Apply,
+    },
+    {
+        name: 'CoMaker',
+        path: '/comaker',
+        component: CoMaker,
     },
 ];
