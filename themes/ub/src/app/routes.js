@@ -3,6 +3,8 @@ import Home from 'src/pages/public/home';
 import Private from 'src/pages/private/private';
 import Calculator from 'src/pages/private/calculatorPage';
 import Apply from 'src/pages/private/ApplyPage';
+import CoMaker from 'src/pages/private/CoMakerPage';
+
 export default [
     {
         name: 'Home',
@@ -28,5 +30,10 @@ export default [
         name: 'Apply',
         path: '/apply',
         component: Apply,
+    },
+    {
+        name: 'CoMaker',
+        path: '/comaker',
+        component: CoMaker,
     },
 ];
