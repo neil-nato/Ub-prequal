@@ -1,12 +1,10 @@
 <template lang="html">
-	<layout>
 		<div class="apply">
 		    <welcome />
 		    <div class="container">
-		      <application-form :comaker="false"></application-form>
+		      <application-form :comaker="false" />
 		    </div>
 		</div>
-	</layout>
 </template>
 
 <script>
