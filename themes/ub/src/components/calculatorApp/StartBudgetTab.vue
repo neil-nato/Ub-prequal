@@ -1,18 +1,18 @@
 <template lang="html">
   <div id="start-budget" role="tabpanel" class="tab-pane  show active">
-    <div class="row">
-      <div class="col-md-4 ">
+    <div class="row" style="height: 527px;">
+      <div class="col-md-3">
         <div class="calc-col">
-          <budget-col />
+            <budget-col />
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="calc-col">
           <!-- <car-col :disabled="isDisabled" /> -->
-          <car-col  />
+            <car-col  />
         </div>
       </div>
-      <div class="col-md-4 ">
+      <div class="col-md-6">
         <div class="calc-col">
           <!-- <summary-col :disabled='isNotFilled' /> -->
           <summary-col  />
@@ -25,7 +25,7 @@
 <script>
 import { mapState } from 'vuex';
 import _ from 'lodash';
-//import { checkIfEmpty }  from '../../util';
+// import { check }  from '../../util';
 
 export default {
     props: ['selected'],
