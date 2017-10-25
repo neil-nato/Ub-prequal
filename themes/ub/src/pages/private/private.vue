@@ -4,7 +4,7 @@
         <info-section />
         <loan-calculator />
         <zero-promo />
-        <compare />
+        <!-- <compare /> -->
         <faq />
         <contact />
     </main>
