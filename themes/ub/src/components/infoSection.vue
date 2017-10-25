@@ -1,17 +1,16 @@
 <template lang="html">
   <section class="basic-info">
-      <div class="container">
+        <b-container >
           <h2>Basic Title Information</h2>
-          <div class="row">
+            <b-row>
               <info-col v-for="(alias, key) in info"
                         key='key'
                         :title='alias.title'
                         :icon="alias.icon"
                         :description='alias.description'
               />
-
-          </div>
-      </div>
+            </b-row>
+        </b-container >
   </section>
 </template>
 

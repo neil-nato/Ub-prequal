@@ -1,6 +1,6 @@
 <template lang="html">
-  <div class="info-col">
-    <div class="col col-md-4">
+  <b-col>
+    <div class="info-col">
         <i :class="icon"></i>
         <p class="info-title">
             {{ title }}
@@ -9,8 +9,7 @@
             {{ description }}
         </p>
     </div>
-  </div>
-
+ </b-col>
 </template>
 
 <script>
