@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <div class="col col-md-5">
-                    <img src="themes/ub/src/assets/images/calculator.png" alt="Car Calculator Image">
+                    <img src="themes/ub/assets/images/calculator.png" alt="Car Calculator Image">
                 </div>
             </div>
         </div>
