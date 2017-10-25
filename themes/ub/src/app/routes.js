@@ -2,7 +2,7 @@ import Otp from 'src/pages/public/otp';
 import Home from 'src/pages/public/home';
 import Private from 'src/pages/private/private';
 import Calculator from 'src/pages/private/calculatorPage';
-
+import Apply from 'src/pages/private/ApplyPage';
 export default [
     {
         name: 'Home',
@@ -23,5 +23,10 @@ export default [
         name: 'Calculator',
         path: '/calculator',
         component: Calculator,
+    },
+    {
+        name: 'Apply',
+        path: '/apply',
+        component: Apply,
     },
 ];
