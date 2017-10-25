@@ -1,21 +1,25 @@
 <template lang="html">
   <div class="calculator-section">
     <div class="container">
-      <h2>Avail a car loan now</h2>
+      <div class="back-tab">
+        <a class="calculator-back-btn">< Back to home page</a>
+      </div>
 
-      <ul class="calculator-tab nav nav-tabs" role="tablist">
+      <h2>Autoloan Calculator</h2>
+
+      <ul class="calculator-tab" role="tablist">
         <li class="nav-item">
-          <a data-toggle="tab" role="tab" class="nav-link active" href="#start-budget" @click="selectedTab = 'budget',clearSelection()">Start with my budget</a>
+          <a data-toggle="tab" role="tab" class="nav-link" href="#start-car" @click="selectedTab = 'car',clearSelection()">Start with Car</a>
         </li>
         <li class="nav-item">
-          <a data-toggle="tab" role="tab" class="nav-link" href="#start-car" @click="selectedTab = 'car',clearSelection()">Start with a car</a>
+          <a data-toggle="tab" role="tab" class="nav-link" href="#start-budget" @click="selectedTab = 'budget',clearSelection()">Start with Budget</a>
         </li>
       </ul>
 
       <!-- Tab panes -->
       <div class="tab-content calculator-app">
-          <start-budget-tab :selected='selectedTab'/>
           <start-car-tab :selected='selectedTab' />
+          <start-budget-tab :selected='selectedTab'/>
       </div>
     </div>
 

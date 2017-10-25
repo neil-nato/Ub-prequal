@@ -1,27 +1,51 @@
 .calculator-section {
   //@extend .section-pad-md;
-  background-color: $dark-bg;
+  background-color: $white-bg;
   color : #333;
+
+  .back-tab {
+    margin-top: 50px;
+      a.calculator-back-btn {
+        color: $gold;
+        text-decoration: underline;
+        cursor: pointer;
+        font-size: 20px;
+          &:hover {
+            @extend .calculator-back-btn;
+          }
+      }
+  }
 
   h2 {
     //@extend .dark-heading;
+    font-weight: 600;
   }
 
   .calculator-tab {
     position: relative;
-
-    .tablink {
-      width : 200px;
-      text-align : center ;
-      background-color: #fff;
-      color : $primary-color;
-      display: inline-block;
-      padding: 9px 30px;
-
-      &:hover,  &:focus {
-        text-decoration: none;
+    padding: 0;
+      li {
+        list-style-type: none;
+        display: inline-block;
+          a {
+            color: $gold;
+            padding-left: 0;
+            text-decoration: underline;
+          }
       }
-    }
+
+      .tablink {
+        width : 200px;
+        text-align : center ;
+        background-color: #fff;
+        color : $primary-color;
+        display: inline-block;
+        padding: 9px 30px;
+
+        &:hover,  &:focus {
+          text-decoration: none;
+        }
+      }
   }
 
   .calculator-app {
@@ -36,29 +60,123 @@
       border-top: 1px none transparent;
       display: block;
 
-      .calc-item{
-        height: 400px;
+      .calc-item {
         margin-top: 30px;
         padding-top: 10px;
         padding-right: 20px;
         padding-left: 20px;
-        border-right: 1px solid #f0f0f0;
+        //border-right: 1px solid #f0f0f0;
+
+        .col-icon {
+          color : $gold;
+          margin-bottom: 40px;
+          i {
+            font-size: 40px;
+          }
+          span {
+            font-size: 2rem;
+          }
+        }
+
+        .form-button {
+
+            .col-button {
+              background-color: $gold;
+              color: white;
+              border-radius: 32px;
+              height: 48px;
+              width: 210px;
+              font-size: 18px;
+            }
+        }
+
+        input {
+          height: 40px;
+          border-radius: 5px;
+          &:focus {
+            border-color: $gold !important;
+            border-width: medium;
+          }
+        }
+
+        select {
+          @extend input;
+        }
       }
 
       .summary-col {
         height: 400px;
-        margin-top: 30px;
-        padding-top: 10px;
+        margin-top: 0px;
+        padding-top: 0px;
         padding-right: 20px;
         padding-left: 20px;
 
+        span {
+          font-size: 2rem;
+          font-weight: bold;
+          color: $gray-darker;
+        }
+
+        .unit-container {
+          margin-top: 30px;
+        }
+
+        &:last-child {
+          border-left: 4px solid $gold;
+        }
+
         .summary-item {
-          padding-bottom: 10px;
+          padding-bottom: 2px;
+          padding-top: 2px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          @extend .text-transform;
+          .unit {
+            color: $gold;
+            font-size: 2rem;
+            font-weight:normal;
+          }
 
           label {
             display: block;
             margin-bottom: 0;
           }
+
+        }
+
+        .button-container {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-end;
+            .summary-button {
+              width: 196px;
+              height: 96px;
+              border-radius: 32px;
+              outline: 0;
+                .gas-points-img {
+                  height: 50px;
+                  width: 50px;
+                }
+
+                &.primary-button {
+                  border: 2px solid white;
+                  background-color: $gold;
+                  color: white;
+                  &:hover {
+                    background-color: $gold-darken;
+                  }
+                }
+
+                &.secondary-button {
+                  background-color: white;
+                  border: 2px solid $gold;
+                  color: $gray-darker;
+                  &:hover {
+                    background-color: $gold-lighten;
+                  }
+                }
+            }
         }
 
         .apply-submit-container {
@@ -70,7 +188,19 @@
           width: 200px;
           display: block;
         }
+
+        .exclamation {
+          vertical-align: middle;
+          color: white;
+          margin-left: 5px;
+        }
+
+        .primary-exclamation {
+            color: $gold;
+            margin-left: 5px;
+        }
       }
+
     }
   }
 }
