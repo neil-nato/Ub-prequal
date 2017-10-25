@@ -33,6 +33,14 @@ export default {
                     link : 'calculator',
                     nav : 'calculator',
                 },
+                {
+                    link : 'apply',
+                    nav : 'apply',
+                },
+                {
+                    link : 'comaker',
+                    nav : 'comaker',
+                },
             ],
         };
     },
@@ -41,9 +49,3 @@ export default {
 
 <style lang="css">
 </style>
-
-
-/
-otp
-private
-calculator
