@@ -38,13 +38,17 @@ import promo from './promo.vue';
 import faq from './faq.vue';
 
 import VueUploadComponent from 'vue-upload-component';
+import modalAccountHolder from './modals/AccountHolder.vue';
+
 import devNav from './devTools/devNav.vue';
 
 export default {
     //common components
     'heading' : head,
     'footing' : foot,
+
     'file-upload' : VueUploadComponent,
+    'modal-account-holder' : modalAccountHolder,
 
     //Calculator
     'calculator-section': calculator,

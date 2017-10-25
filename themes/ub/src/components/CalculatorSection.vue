@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <!-- <modal-account-holder /> -->
+    <modal-account-holder />
 
   </div>
 </template>
