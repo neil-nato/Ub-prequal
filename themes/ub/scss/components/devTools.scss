@@ -5,13 +5,23 @@
   z-index: 99999;
   background-color: #fff;
   padding-left: 10px;
-  
+  @extend .shadow;
+
   ul {
     padding-left: 10px;
     list-style-type: none;
+    
     li {
-      a{
+      margin: 5px 0;
 
+      a{
+        color : #333;
+        padding: 10px 0;
+
+        &:hover, &:focus {
+          color : $primary-color;
+          text-decoration: none;
+        }
       }
     }
   }

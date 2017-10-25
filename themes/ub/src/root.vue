@@ -3,7 +3,8 @@
 
 <template>
     <div id="app">
-        <heading /> 
+        <heading />
+        <dev-nav />
         <router-view />
         <footing />
     </div>

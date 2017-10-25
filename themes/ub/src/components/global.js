@@ -26,6 +26,7 @@ import zeroPromo from './zeropromo.vue';
 import promo from './promo.vue';
 import faq from './faq.vue';
 
+import devNav from './devTools/devNav.vue';
 
 export default {
     //common components
@@ -50,4 +51,7 @@ export default {
     'zero-promo' :  zeroPromo,
     'promo' :  promo,
     'faq' : faq,
+
+    // Dev Tools
+    'dev-nav': devNav,
 };
