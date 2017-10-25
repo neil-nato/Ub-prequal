@@ -19,6 +19,17 @@ import summarCol from './calculatorApp/SummaryCol.vue';
 import budgetTab from './calculatorApp/StartBudgetTab.vue';
 import carTab from './calculatorApp/StartCarTab.vue';
 
+// Form
+import bannerForm from './form/bannerForm.vue';
+import LoanDetails from './LoanDetails.vue';
+import form from './form';
+import existingUser from './form/existingUser.vue';
+import applicantIdentity from './form/applicantIdentity.vue';
+import employmentInformation from './form/employmentInformation';
+import documents from './form/documents.vue';
+import comaker from './form/comaker.vue';
+import agree from './form/agree.vue';
+
 import contact from './contact.vue';
 import compare from './compare.vue';
 import loanCalculator from './loancalculator.vue';
@@ -40,6 +51,17 @@ export default {
     'summary-col': summarCol,
     'start-budget-tab': budgetTab,
     'start-car-tab': carTab,
+
+    //Form Components
+    'banner-form' : bannerForm,
+    'loan-details' : LoanDetails,
+    'application-form' : form,
+    'existing-user' : existingUser,
+    'applicant-identity' : applicantIdentity,
+    'employment-details' : employmentInformation,
+    'documents' : documents,
+    'co-maker' : comaker,
+    'agree' : agree,
 
     //components
     'welcome' :  welcome,
