@@ -97,6 +97,7 @@ export const store = new Vuex.Store({
         m1applicant: {},
         form: {},
         api : {...baseData.api},
+        faqList: [],
     },
   //This is where you define the data structure of your application.
   //You can also set default or initial state here.
@@ -108,6 +109,14 @@ export const store = new Vuex.Store({
           //console.log('Axios is Working ')
           //this.state.carList = response.data;
                 commit('setCarList', { list: response.data });
+            });
+        },
+
+        
+
+        loadFaqList: ( { commit } ) => {
+            axios.get('api/ub-cms/faq').then(response => {
+                commit('setFaqList', { list: response.data });
             });
         },
 
@@ -223,6 +232,9 @@ export const store = new Vuex.Store({
   //Actions are called in your components via dispatch call.
 
     mutations : {
+        setFaqList : ( state, { list }) => {
+            state.faqList = list;
+        },
         setCarList : ( state, { list }) => {
             state.carList = list;
 
