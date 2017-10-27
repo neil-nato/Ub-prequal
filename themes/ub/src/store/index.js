@@ -7,6 +7,13 @@ import qs from 'query-string';
 Vue.use(Vuex);
 
 let baseData = {
+    zeroPromo: {
+        brand: '',
+        model: '',
+        downpayment: '',
+        srp: '',
+        term: '',
+    },
     car: {
         model: '',
         brand: '',
@@ -97,17 +104,31 @@ export const store = new Vuex.Store({
         m1applicant: {},
         form: {},
         api : {...baseData.api},
+        faqList: [],
+        selectedZeroPromoCar: {...baseData.zeroPromo},
+        zeroPromoList: [],
     },
   //This is where you define the data structure of your application.
   //You can also set default or initial state here.
 
     actions : {
+        loadZeroPromoList: ( { commit } ) => {
+            axios.get('api/ub-cms/zero-promo').then(response => {
+                commit('setZeroPromoList', { list: response.data });
+            });
+        },
         loadCarList: ( { commit } ) => {
             axios.get('api/data').then(response => {
           //console.log(response.data);
           //console.log('Axios is Working ')
           //this.state.carList = response.data;
                 commit('setCarList', { list: response.data });
+            });
+        },
+
+        loadFaqList: ( { commit } ) => {
+            axios.get('api/ub-cms/faq').then(response => {
+                commit('setFaqList', { list: response.data });
             });
         },
 
@@ -144,6 +165,14 @@ export const store = new Vuex.Store({
                 price : state.selectedCar.model.srp,
             });
 
+        },
+
+        getZeroPromoCar: ( { commit, state }, payload ) => {
+            commit('setSelectedZeroPromoCar', {
+                ...state.selectedZeroPromoCar,
+                ...payload,
+            });
+            console.log(state.selectedZeroPromoCar);
         },
 
         getBudget: ( { commit, state } ) => {
@@ -223,12 +252,22 @@ export const store = new Vuex.Store({
   //Actions are called in your components via dispatch call.
 
     mutations : {
+        setZeroPromoList : ( state, { list }) => {
+            state.zeroPromoList = list;
+        },
+        setFaqList : ( state, { list }) => {
+            state.faqList = list;
+        },
         setCarList : ( state, { list }) => {
             state.carList = list;
 
             const brand = Object.keys( state.carList );
             state.brandList = Object.keys( groupBy(list, 'brand' ) );
      //state.brandList = state.carList.Object.keys( item.brand )
+        },
+        setSelectedZeroPromoCar : ( state, list ) => {
+            state.selectedZeroPromoCar = list;
+            console.log(state.selectedZeroPromoCar);
         },
         setSelectedCar : ( state, list ) => {
       //console.log(list)
