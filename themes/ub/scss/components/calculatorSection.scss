@@ -69,12 +69,18 @@
               box-shadow: none;
             }
           }
+
           .secondary-button {
             margin: 10px;
             width: 400px;
             height: 50px;
             font-size: 18px;
             color: $gold;
+
+            &:hover {
+              color : white;
+              background-color: $gold;
+            }
             &:active, &:focus {
               box-shadow: none;
             }
