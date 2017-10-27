@@ -2,12 +2,12 @@
   <div id="calculator-section" class="calculator-section">
     <div class="container">
       <div class="back-tab">
-        <a class="calculator-back-btn">< Back to home page</a>
+        <a href="/" class="calculator-back-btn">< Back to home page</a>
       </div>
 
       <h2>Autoloan Calculator</h2>
 
-      <ul class="calculator-tab" role="tablist">        
+      <ul class="calculator-tab" role="tablist">
         <li class="nav-item">
           <a data-toggle="tab" role="tab" class="nav-link" href="#start-budget" @click="selectedTab = 'budget',clearSelection()">Start with Budget</a>
         </li>
@@ -36,7 +36,7 @@
       </div>
 
       <div class="back-tab">
-        <a class="calculator-back-btn">< Back to home page</a>
+        <a href="/" class="calculator-back-btn">< Back to home page</a>
       </div>
     </div>
 
