@@ -25,4 +25,9 @@ Route::get('api/unionbank/car/view-increment/{id}', 'botbrosai\unionbank\control
 // CAR LIST
 Route::get('/api/data', 'botbrosai\unionbank\controllers\GuzzleController@getRemoteData');
 Route::get('/api/ammort','botbrosai\unionbank\controllers\GuzzleController@calculateAmmort');
+
+//CHATTLE MORTGAGE
+Route::get('/data/cmf', function() {
+    return response()->file('plugins\botbrosai\unionbank\data\cmf.json');
+})
 ?>
