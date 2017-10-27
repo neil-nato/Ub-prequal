@@ -27,9 +27,9 @@
           </select>
         </div>
 
-        <div class="form-button">
+        <!-- <div class="form-button">
           <b-button class="col-button">Confirm</b-button>
-        </div>
+        </div> -->
 
       </form>
     </div>
