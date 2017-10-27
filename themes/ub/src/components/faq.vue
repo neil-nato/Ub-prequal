@@ -24,23 +24,23 @@
 </template>
 
 <script type="text/javascript">
-    import axios from 'axios';
+    import { mapState, mapActions } from 'vuex';
 
     export default {
-        data(){
-            return {
-                faqList: [],
-            };
+        computed:{
+            ...mapState([
+                'faqList',
+            ]),
         },
 
-        mounted() {
-            var _self = this;
+        methods:{
+            ...mapActions([
+                'loadFaqList',
+            ]),
+        },
 
-            axios.get('http://localhost:8000/api/unionbank/faq/list').then(function (response){
-                _self.faqList = response.data;
-                console.log(_self.faqList);
-            });
-
+        mounted(){
+            this.loadFaqList();
         },
     };
 </script>

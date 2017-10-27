@@ -1,13 +1,13 @@
 <?php
 
 //FAQ
-Route::get('api/unionbank/faq/list', 'botbrosai\unionbank\controllers\FaqController@faqList');
+Route::get('api/ub-cms/faq', 'botbrosai\unionbank\controllers\FaqController@faqList');
 
 //PROMO
 Route::get('api/unionbank/promo/list', 'botbrosai\unionbank\controllers\PromoController@promoList');
 
 //ZERO PROMO
-Route::get('api/unionbank/zero-promo/list', 'botbrosai\unionbank\controllers\ZeroPromoController@zeroPromoList');
+Route::get('api/ub-cms/zero-promo/', 'botbrosai\unionbank\controllers\ZeroPromoController@zeroPromoList');
 
 //ZERO PROMO CAR
 Route::get('api/unionbank/zero-promo-car/list', 'botbrosai\unionbank\controllers\ZeroPromoCarController@zeroPromoCarList');
