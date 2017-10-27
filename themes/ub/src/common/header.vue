@@ -1,5 +1,28 @@
 <template lang="html">
-  <header>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="/"><img src="themes/ub/assets/images/logo.png" alt="UnionBank GetGo Autoloans Promo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="nav navbar-nav pull-right">
+          <li v-for="alias in nav">
+            <a :href="alias.menuLinks">
+              {{ alias.menu }}
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+  <!-- <header>
     <nav class="navbar">
           <div class="container">
             <div class="navbar-header">
@@ -15,18 +38,14 @@
             </div>
             <div class="collapse navbar-collapse" id="headerNavbarCollapse">
                 <ul class="nav navbar-nav navbar-right">
-                  <li v-for="alias in nav">
-                    <a :href="alias.menuLinks">
-                      {{ alias.menu }}
-                    </a>
-                  </li>
+
 
 
                 </ul>
             </div>
           </div>
     </nav>
-  </header>
+  </header> -->
 </template>
 
 <script>
@@ -53,4 +72,8 @@ export default {
 </script>
 
 <style lang="css">
+.navbar-brand img {
+    width: 100%;
+    height: auto;
+  }
 </style>

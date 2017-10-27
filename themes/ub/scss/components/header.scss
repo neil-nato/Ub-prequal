@@ -3,37 +3,32 @@ h2 {
     font-weight: 300;
 }
 
+nav.navbar {
+  background-color: $secondary-color;
+  color : white;
+  border-radius: 0;
 
-header {
-	background-color: #323a44;
+  .navbar-header, .nav {
+    padding: 8px 0;
+  }
 
-  .navbar {
-  	margin-bottom: 0;
+  .navbar-brand {
+    width : 200px;
+  }
 
-    .navbar-brand {
-    	color: #fff;
-    	width: 230px;
-    }
+  ul {
+    li {
+      a {
+        color : white;
+        letter-spacing: 1.5px;
+        padding: 0 10px;
+        font-size: 15px;
 
-    .navbar-toggle {
-    	background-color: #333;
-    	border-color: #333;
-
-      .icon-bar {
-      	background-color: #fff;
-      }
-    }
-
-    .navbar-brand img {
-    	width: 100%;
-    }
-
-    .navbar-nav li a {
-    	color: #fff;
-
-      &:hover, &:focus {
-        background-color: #323a44;
-        color: #fff;
+        &:hover, &:focus{
+          color : $primary-color;
+          background-color: transparent;
+          text-decoration: none;
+        }
       }
     }
   }
