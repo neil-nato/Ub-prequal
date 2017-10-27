@@ -1,0 +1,84 @@
+.article-page {
+  @extend .section-pad-md ;
+
+  h2:first-child {
+    padding-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+    &:hover {
+      color: $gold;
+    }
+  }
+
+  &.faq {
+    .faq-section {
+      @extend .section-pad-sm;
+
+        .faq-container {
+          padding: 10px;
+        }
+
+        .accordion-head {
+          cursor: pointer;
+          transition: all 0.5s ease;
+          font-size: 10px;
+
+            &:hover {
+              color: $gold;
+            }
+        }
+    }
+  }
+
+  &.terms {
+    @extend .section-pad-md;
+
+    .terms-section {
+      margin-bottom:  30px;
+    }
+
+    .nav-tabs{
+      float: left;
+      width: 200px;
+      li {
+        display: block;
+
+        a {
+          color: #495057;
+          background-color: #fff;
+          border: none;
+          width: 200px;
+
+          &.nav-link.active {
+            color: $primary-color ;
+            background-color: #fff;
+            border: none;
+          }
+        }
+      }
+    }
+
+    .nav-link.active {
+      color: $primary-color ;
+      background-color: #fff;
+      border: none;
+    }
+  }
+
+  &.contact-us {
+
+    .container {
+      clear : both;
+      overflow: auto;
+    }
+    #c-text{
+      height: 350px;
+    }
+
+    .caption-button {
+      margin-top: 20px;
+      float: right;
+    }
+  }
+}
