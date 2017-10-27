@@ -1,0 +1,1105 @@
+[{
+		"amount_financed": 50000.00,
+		"chattel_mortgage": 9942.82
+	},
+	{
+		"amount_financed": 55000.00,
+		"chattel_mortgage": 10049.17
+	},
+	{
+		"amount_financed": 60000.00,
+		"chattel_mortgage": 10155.52
+	},
+	{
+		"amount_financed": 65000.00,
+		"chattel_mortgage": 10276.87
+	},
+	{
+		"amount_financed": 70000.00,
+		"chattel_mortgage": 10374.22
+	},
+	{
+		"amount_financed": 75000.00,
+		"chattel_mortgage": 10471.57
+	},
+	{
+		"amount_financed": 80000.00,
+		"chattel_mortgage": 10574.92
+	},
+	{
+		"amount_financed": 85000.00,
+		"chattel_mortgage": 10690.27
+	},
+	{
+		"amount_financed": 90000.00,
+		"chattel_mortgage": 10787.62
+	},
+	{
+		"amount_financed": 95000.00,
+		"chattel_mortgage": 10884.97
+	},
+	{
+		"amount_financed": 100000.00,
+		"chattel_mortgage": 10982.32
+	},
+	{
+		"amount_financed": 110000.00,
+		"chattel_mortgage": 11177.02
+	},
+	{
+		"amount_financed": 120000.00,
+		"chattel_mortgage": 11347.72
+	},
+	{
+		"amount_financed": 130000.00,
+		"chattel_mortgage": 11542.42
+	},
+	{
+		"amount_financed": 140000.00,
+		"chattel_mortgage": 11713.12
+	},
+	{
+		"amount_financed": 150000.00,
+		"chattel_mortgage": 11907.82
+	},
+	{
+		"amount_financed": 160000.00,
+		"chattel_mortgage": 12078.52
+	},
+	{
+		"amount_financed": 170000.00,
+		"chattel_mortgage": 12273.22
+	},
+	{
+		"amount_financed": 180000.00,
+		"chattel_mortgage": 12443.92
+	},
+	{
+		"amount_financed": 190000.00,
+		"chattel_mortgage": 12638.62
+	},
+	{
+		"amount_financed": 200000.00,
+		"chattel_mortgage": 12809.32
+	},
+	{
+		"amount_financed": 210000.00,
+		"chattel_mortgage": 13004.02
+	},
+	{
+		"amount_financed": 220000.00,
+		"chattel_mortgage": 13174.72
+	},
+	{
+		"amount_financed": 230000.00,
+		"chattel_mortgage": 13369.42
+	},
+	{
+		"amount_financed": 240000.00,
+		"chattel_mortgage": 13540.12
+	},
+	{
+		"amount_financed": 250000.00,
+		"chattel_mortgage": 13734.82
+	},
+	{
+		"amount_financed": 260000.00,
+		"chattel_mortgage": 13905.52
+	},
+	{
+		"amount_financed": 270000.00,
+		"chattel_mortgage": 14100.22
+	},
+	{
+		"amount_financed": 280000.00,
+		"chattel_mortgage": 14270.92
+	},
+	{
+		"amount_financed": 290000.00,
+		"chattel_mortgage": 14465.62
+	},
+	{
+		"amount_financed": 300000.00,
+		"chattel_mortgage": 14636.32
+	},
+	{
+		"amount_financed": 310000.00,
+		"chattel_mortgage": 14849.02
+	},
+	{
+		"amount_financed": 320000.00,
+		"chattel_mortgage": 15019.72
+	},
+	{
+		"amount_financed": 330000.00,
+		"chattel_mortgage": 15190.42
+	},
+	{
+		"amount_financed": 340000.00,
+		"chattel_mortgage": 15361.12
+	},
+	{
+		"amount_financed": 350000.00,
+		"chattel_mortgage": 15531.82
+	},
+	{
+		"amount_financed": 360000.00,
+		"chattel_mortgage": 15744.52
+	},
+	{
+		"amount_financed": 370000.00,
+		"chattel_mortgage": 15915.22
+	},
+	{
+		"amount_financed": 380000.00,
+		"chattel_mortgage": 16085.92
+	},
+	{
+		"amount_financed": 390000.00,
+		"chattel_mortgage": 16256.62
+	},
+	{
+		"amount_financed": 400000.00,
+		"chattel_mortgage": 16427.32
+	},
+	{
+		"amount_financed": 410000.00,
+		"chattel_mortgage": 16640.02
+	},
+	{
+		"amount_financed": 420000.00,
+		"chattel_mortgage": 16810.72
+	},
+	{
+		"amount_financed": 430000.00,
+		"chattel_mortgage": 16981.42
+	},
+	{
+		"amount_financed": 440000.00,
+		"chattel_mortgage": 17152.12
+	},
+	{
+		"amount_financed": 450000.00,
+		"chattel_mortgage": 17322.82
+	},
+	{
+		"amount_financed": 460000.00,
+		"chattel_mortgage": 17535.52
+	},
+	{
+		"amount_financed": 470000.00,
+		"chattel_mortgage": 17706.22
+	},
+	{
+		"amount_financed": 480000.00,
+		"chattel_mortgage": 17876.92
+	},
+	{
+		"amount_financed": 490000.00,
+		"chattel_mortgage": 18047.62
+	},
+	{
+		"amount_financed": 500000.00,
+		"chattel_mortgage": 18218.32
+	},
+	{
+		"amount_financed": 520000.00,
+		"chattel_mortgage": 18571.72
+	},
+	{
+		"amount_financed": 540000.00,
+		"chattel_mortgage": 18883.12
+	},
+	{
+		"amount_financed": 560000.00,
+		"chattel_mortgage": 19236.52
+	},
+	{
+		"amount_financed": 580000.00,
+		"chattel_mortgage": 19547.92
+	},
+	{
+		"amount_financed": 600000.00,
+		"chattel_mortgage": 19859.32
+	},
+	{
+		"amount_financed": 620000.00,
+		"chattel_mortgage": 20212.72
+	},
+	{
+		"amount_financed": 640000.00,
+		"chattel_mortgage": 20524.12
+	},
+	{
+		"amount_financed": 660000.00,
+		"chattel_mortgage": 20877.52
+	},
+	{
+		"amount_financed": 680000.00,
+		"chattel_mortgage": 21188.92
+	},
+	{
+		"amount_financed": 700000.00,
+		"chattel_mortgage": 21500.32
+	},
+	{
+		"amount_financed": 720000.00,
+		"chattel_mortgage": 21853.72
+	},
+	{
+		"amount_financed": 740000.00,
+		"chattel_mortgage": 22165.12
+	},
+	{
+		"amount_financed": 760000.00,
+		"chattel_mortgage": 22518.52
+	},
+	{
+		"amount_financed": 780000.00,
+		"chattel_mortgage": 22829.92
+	},
+	{
+		"amount_financed": 800000.00,
+		"chattel_mortgage": 23141.32
+	},
+	{
+		"amount_financed": 820000.00,
+		"chattel_mortgage": 23494.72
+	},
+	{
+		"amount_financed": 840000.00,
+		"chattel_mortgage": 23806.12
+	},
+	{
+		"amount_financed": 860000.00,
+		"chattel_mortgage": 24189.52
+	},
+	{
+		"amount_financed": 880000.00,
+		"chattel_mortgage": 24370.92
+	},
+	{
+		"amount_financed": 900000.00,
+		"chattel_mortgage": 24682.32
+	},
+	{
+		"amount_financed": 920000.00,
+		"chattel_mortgage": 25135.72
+	},
+	{
+		"amount_financed": 940000.00,
+		"chattel_mortgage": 25447.12
+	},
+	{
+		"amount_financed": 960000.00,
+		"chattel_mortgage": 25800.52
+	},
+	{
+		"amount_financed": 980000.00,
+		"chattel_mortgage": 26111.93
+	},
+	{
+		"amount_financed": 1000000.00,
+		"chattel_mortgage": 26423.32
+	},
+	{
+		"amount_financed": 1020000.00,
+		"chattel_mortgage": 26794.72
+	},
+	{
+		"amount_financed": 1040000.00,
+		"chattel_mortgage": 27106.12
+	},
+	{
+		"amount_financed": 1060000.00,
+		"chattel_mortgage": 27417.52
+	},
+	{
+		"amount_financed": 1080000.00,
+		"chattel_mortgage": 27728.92
+	},
+	{
+		"amount_financed": 1100000.00,
+		"chattel_mortgage": 28040.32
+	},
+	{
+		"amount_financed": 1120000.00,
+		"chattel_mortgage": 28411.72
+	},
+	{
+		"amount_financed": 1140000.00,
+		"chattel_mortgage": 28723.12
+	},
+	{
+		"amount_financed": 1160000.00,
+		"chattel_mortgage": 29034.52
+	},
+	{
+		"amount_financed": 1180000.00,
+		"chattel_mortgage": 29345.92
+	},
+	{
+		"amount_financed": 1200000.00,
+		"chattel_mortgage": 29657.32
+	},
+	{
+		"amount_financed": 1220000.00,
+		"chattel_mortgage": 30028.72
+	},
+	{
+		"amount_financed": 1240000.00,
+		"chattel_mortgage": 30340.12
+	},
+	{
+		"amount_financed": 1260000.00,
+		"chattel_mortgage": 30651.52
+	},
+	{
+		"amount_financed": 1280000.00,
+		"chattel_mortgage": 30962.92
+	},
+	{
+		"amount_financed": 1300000.00,
+		"chattel_mortgage": 31274.32
+	},
+	{
+		"amount_financed": 1320000.00,
+		"chattel_mortgage": 31645.72
+	},
+	{
+		"amount_financed": 1340000.00,
+		"chattel_mortgage": 31957.12
+	},
+	{
+		"amount_financed": 1360000.00,
+		"chattel_mortgage": 32268.52
+	},
+	{
+		"amount_financed": 1380000.00,
+		"chattel_mortgage": 32579.92
+	},
+	{
+		"amount_financed": 1400000.00,
+		"chattel_mortgage": 32891.32
+	},
+	{
+		"amount_financed": 1420000.00,
+		"chattel_mortgage": 33262.72
+	},
+	{
+		"amount_financed": 1440000.00,
+		"chattel_mortgage": 33574.12
+	},
+	{
+		"amount_financed": 1460000.00,
+		"chattel_mortgage": 33885.52
+	},
+	{
+		"amount_financed": 1480000.00,
+		"chattel_mortgage": 34196.92
+	},
+	{
+		"amount_financed": 1500000.00,
+		"chattel_mortgage": 34508.32
+	},
+	{
+		"amount_financed": 1520000.00,
+		"chattel_mortgage": 34879.72
+	},
+	{
+		"amount_financed": 1540000.00,
+		"chattel_mortgage": 35191.12
+	},
+	{
+		"amount_financed": 1560000.00,
+		"chattel_mortgage": 35502.52
+	},
+	{
+		"amount_financed": 1580000.00,
+		"chattel_mortgage": 35813.92
+	},
+	{
+		"amount_financed": 1600000.00,
+		"chattel_mortgage": 36125.32
+	},
+	{
+		"amount_financed": 1620000.00,
+		"chattel_mortgage": 36496.72
+	},
+	{
+		"amount_financed": 1640000.00,
+		"chattel_mortgage": 36808.12
+	},
+	{
+		"amount_financed": 1660000.00,
+		"chattel_mortgage": 37119.52
+	},
+	{
+		"amount_financed": 1680000.00,
+		"chattel_mortgage": 37430.92
+	},
+	{
+		"amount_financed": 1700000.00,
+		"chattel_mortgage": 37742.32
+	},
+	{
+		"amount_financed": 1720000.00,
+		"chattel_mortgage": 38113.72
+	},
+	{
+		"amount_financed": 1740000.00,
+		"chattel_mortgage": 38425.12
+	},
+	{
+		"amount_financed": 1760000.00,
+		"chattel_mortgage": 38736.52
+	},
+	{
+		"amount_financed": 1780000.00,
+		"chattel_mortgage": 39047.92
+	},
+	{
+		"amount_financed": 1800000.00,
+		"chattel_mortgage": 39359.32
+	},
+	{
+		"amount_financed": 1820000.00,
+		"chattel_mortgage": 39730.72
+	},
+	{
+		"amount_financed": 1840000.00,
+		"chattel_mortgage": 40042.12
+	},
+	{
+		"amount_financed": 1860000.00,
+		"chattel_mortgage": 40353.52
+	},
+	{
+		"amount_financed": 1880000.00,
+		"chattel_mortgage": 40664.92
+	},
+	{
+		"amount_financed": 1900000.00,
+		"chattel_mortgage": 40976.32
+	},
+	{
+		"amount_financed": 1920000.00,
+		"chattel_mortgage": 41347.72
+	},
+	{
+		"amount_financed": 1940000.00,
+		"chattel_mortgage": 41659.12
+	},
+	{
+		"amount_financed": 1960000.00,
+		"chattel_mortgage": 41970.52
+	},
+	{
+		"amount_financed": 1980000.00,
+		"chattel_mortgage": 42281.92
+	},
+	{
+		"amount_financed": 2000000.00,
+		"chattel_mortgage": 42593.32
+	},
+	{
+		"amount_financed": 2020000.00,
+		"chattel_mortgage": 42964.72
+	},
+	{
+		"amount_financed": 2040000.00,
+		"chattel_mortgage": 43276.12
+	},
+	{
+		"amount_financed": 2060000.00,
+		"chattel_mortgage": 43587.52
+	},
+	{
+		"amount_financed": 2080000.00,
+		"chattel_mortgage": 43898.92
+	},
+	{
+		"amount_financed": 2100000.00,
+		"chattel_mortgage": 44210.32
+	},
+	{
+		"amount_financed": 2120000.00,
+		"chattel_mortgage": 44581.72
+	},
+	{
+		"amount_financed": 2140000.00,
+		"chattel_mortgage": 44893.12
+	},
+	{
+		"amount_financed": 2160000.00,
+		"chattel_mortgage": 45204.52
+	},
+	{
+		"amount_financed": 2180000.00,
+		"chattel_mortgage": 45515.92
+	},
+	{
+		"amount_financed": 2200000.00,
+		"chattel_mortgage": 45827.32
+	},
+	{
+		"amount_financed": 2220000.00,
+		"chattel_mortgage": 46198.72
+	},
+	{
+		"amount_financed": 2240000.00,
+		"chattel_mortgage": 46510.12
+	},
+	{
+		"amount_financed": 2260000.00,
+		"chattel_mortgage": 46821.52
+	},
+	{
+		"amount_financed": 2280000.00,
+		"chattel_mortgage": 47132.92
+	},
+	{
+		"amount_financed": 2300000.00,
+		"chattel_mortgage": 47444.32
+	},
+	{
+		"amount_financed": 2320000.00,
+		"chattel_mortgage": 47815.72
+	},
+	{
+		"amount_financed": 2340000.00,
+		"chattel_mortgage": 48127.12
+	},
+	{
+		"amount_financed": 2360000.00,
+		"chattel_mortgage": 48438.52
+	},
+	{
+		"amount_financed": 2380000.00,
+		"chattel_mortgage": 48749.92
+	},
+	{
+		"amount_financed": 2400000.00,
+		"chattel_mortgage": 49061.32
+	},
+	{
+		"amount_financed": 2420000.00,
+		"chattel_mortgage": 49432.32
+	},
+	{
+		"amount_financed": 2440000.00,
+		"chattel_mortgage": 49744.12
+	},
+	{
+		"amount_financed": 2460000.00,
+		"chattel_mortgage": 50055.52
+	},
+	{
+		"amount_financed": 2480000.00,
+		"chattel_mortgage": 50366.92
+	},
+	{
+		"amount_financed": 2500000.00,
+		"chattel_mortgage": 50678.32
+	},
+	{
+		"amount_financed": 2520000.00,
+		"chattel_mortgage": 51049.72
+	},
+	{
+		"amount_financed": 2540000.00,
+		"chattel_mortgage": 51361.12
+	},
+	{
+		"amount_financed": 2560000.00,
+		"chattel_mortgage": 51672.52
+	},
+	{
+		"amount_financed": 2580000.00,
+		"chattel_mortgage": 51983.92
+	},
+	{
+		"amount_financed": 2600000.00,
+		"chattel_mortgage": 52295.32
+	},
+	{
+		"amount_financed": 2620000.00,
+		"chattel_mortgage": 52666.72
+	},
+	{
+		"amount_financed": 2640000.00,
+		"chattel_mortgage": 52978.12
+	},
+	{
+		"amount_financed": 2660000.00,
+		"chattel_mortgage": 53289.52
+	},
+	{
+		"amount_financed": 2680000.00,
+		"chattel_mortgage": 53600.92
+	},
+	{
+		"amount_financed": 2700000.00,
+		"chattel_mortgage": 53912.32
+	},
+	{
+		"amount_financed": 2720000.00,
+		"chattel_mortgage": 54283.72
+	},
+	{
+		"amount_financed": 2740000.00,
+		"chattel_mortgage": 54595.12
+	},
+	{
+		"amount_financed": 2760000.00,
+		"chattel_mortgage": 54906.52
+	},
+	{
+		"amount_financed": 2780000.00,
+		"chattel_mortgage": 55217.92
+	},
+	{
+		"amount_financed": 2800000.00,
+		"chattel_mortgage": 55529.32
+	},
+	{
+		"amount_financed": 2820000.00,
+		"chattel_mortgage": 55900.72
+	},
+	{
+		"amount_financed": 2840000.00,
+		"chattel_mortgage": 56212.12
+	},
+	{
+		"amount_financed": 2860000.00,
+		"chattel_mortgage": 56523.52
+	},
+	{
+		"amount_financed": 2880000.00,
+		"chattel_mortgage": 56834.92
+	},
+	{
+		"amount_financed": 2900000.00,
+		"chattel_mortgage": 57146.32
+	},
+	{
+		"amount_financed": 2920000.00,
+		"chattel_mortgage": 57517.72
+	},
+	{
+		"amount_financed": 2940000.00,
+		"chattel_mortgage": 57829.12
+	},
+	{
+		"amount_financed": 2960000.00,
+		"chattel_mortgage": 58140.52
+	},
+	{
+		"amount_financed": 2980000.00,
+		"chattel_mortgage": 58451.92
+	},
+	{
+		"amount_financed": 3000000.00,
+		"chattel_mortgage": 58763.32
+	},
+	{
+		"amount_financed": 3020000.00,
+		"chattel_mortgage": 59134.72
+	},
+	{
+		"amount_financed": 3040000.00,
+		"chattel_mortgage": 59446.12
+	},
+	{
+		"amount_financed": 3060000.00,
+		"chattel_mortgage": 59757.52
+	},
+	{
+		"amount_financed": 3080000.00,
+		"chattel_mortgage": 60068.92
+	},
+	{
+		"amount_financed": 3100000.00,
+		"chattel_mortgage": 60380.32
+	},
+	{
+		"amount_financed": 3120000.00,
+		"chattel_mortgage": 60751.72
+	},
+	{
+		"amount_financed": 3140000.00,
+		"chattel_mortgage": 61063.12
+	},
+	{
+		"amount_financed": 3160000.00,
+		"chattel_mortgage": 61374.52
+	},
+	{
+		"amount_financed": 3180000.00,
+		"chattel_mortgage": 61685.92
+	},
+	{
+		"amount_financed": 3200000.00,
+		"chattel_mortgage": 61997.32
+	},
+	{
+		"amount_financed": 3220000.00,
+		"chattel_mortgage": 62368.72
+	},
+	{
+		"amount_financed": 3240000.00,
+		"chattel_mortgage": 62680.12
+	},
+	{
+		"amount_financed": 3260000.00,
+		"chattel_mortgage": 62991.52
+	},
+	{
+		"amount_financed": 3280000.00,
+		"chattel_mortgage": 63302.92
+	},
+	{
+		"amount_financed": 3300000.00,
+		"chattel_mortgage": 63614.32
+	},
+	{
+		"amount_financed": 3320000.00,
+		"chattel_mortgage": 63985.72
+	},
+	{
+		"amount_financed": 3340000.00,
+		"chattel_mortgage": 64297.12
+	},
+	{
+		"amount_financed": 3360000.00,
+		"chattel_mortgage": 64608.52
+	},
+	{
+		"amount_financed": 3380000.00,
+		"chattel_mortgage": 64919.92
+	},
+	{
+		"amount_financed": 3400000.00,
+		"chattel_mortgage": 65231.32
+	},
+	{
+		"amount_financed": 3420000.00,
+		"chattel_mortgage": 65602.72
+	},
+	{
+		"amount_financed": 3440000.00,
+		"chattel_mortgage": 65914.12
+	},
+	{
+		"amount_financed": 3460000.00,
+		"chattel_mortgage": 66225.52
+	},
+	{
+		"amount_financed": 3480000.00,
+		"chattel_mortgage": 66536.92
+	},
+	{
+		"amount_financed": 3500000.00,
+		"chattel_mortgage": 66848.32
+	},
+	{
+		"amount_financed": 3520000.00,
+		"chattel_mortgage": 67219.72
+	},
+	{
+		"amount_financed": 3540000.00,
+		"chattel_mortgage": 67531.12
+	},
+	{
+		"amount_financed": 3560000.00,
+		"chattel_mortgage": 67842.52
+	},
+	{
+		"amount_financed": 3580000.00,
+		"chattel_mortgage": 68153.92
+	},
+	{
+		"amount_financed": 3600000.00,
+		"chattel_mortgage": 68465.32
+	},
+	{
+		"amount_financed": 3620000.00,
+		"chattel_mortgage": 68836.72
+	},
+	{
+		"amount_financed": 3640000.00,
+		"chattel_mortgage": 69148.12
+	},
+	{
+		"amount_financed": 3660000.00,
+		"chattel_mortgage": 69459.52
+	},
+	{
+		"amount_financed": 3680000.00,
+		"chattel_mortgage": 69770.92
+	},
+	{
+		"amount_financed": 3700000.00,
+		"chattel_mortgage": 70082.32
+	},
+	{
+		"amount_financed": 3720000.00,
+		"chattel_mortgage": 70383.72
+	},
+	{
+		"amount_financed": 3740000.00,
+		"chattel_mortgage": 70765.12
+	},
+	{
+		"amount_financed": 3760000.00,
+		"chattel_mortgage": 71076.52
+	},
+	{
+		"amount_financed": 3780000.00,
+		"chattel_mortgage": 71387.92
+	},
+	{
+		"amount_financed": 3800000.00,
+		"chattel_mortgage": 71699.32
+	},
+	{
+		"amount_financed": 3820000.00,
+		"chattel_mortgage": 72070.72
+	},
+	{
+		"amount_financed": 3840000.00,
+		"chattel_mortgage": 72382.12
+	},
+	{
+		"amount_financed": 3860000.00,
+		"chattel_mortgage": 72693.52
+	},
+	{
+		"amount_financed": 3880000.00,
+		"chattel_mortgage": 73004.92
+	},
+	{
+		"amount_financed": 3900000.00,
+		"chattel_mortgage": 73316.32
+	},
+	{
+		"amount_financed": 3920000.00,
+		"chattel_mortgage": 73687.72
+	},
+	{
+		"amount_financed": 3940000.00,
+		"chattel_mortgage": 73999.12
+	},
+	{
+		"amount_financed": 3960000.00,
+		"chattel_mortgage": 74310.52
+	},
+	{
+		"amount_financed": 3980000.00,
+		"chattel_mortgage": 74621.92
+	},
+	{
+		"amount_financed": 4000000.00,
+		"chattel_mortgage": 74933.32
+	},
+	{
+		"amount_financed": 4020000.00,
+		"chattel_mortgage": 75304.72
+	},
+	{
+		"amount_financed": 4040000.00,
+		"chattel_mortgage": 75616.12
+	},
+	{
+		"amount_financed": 4060000.00,
+		"chattel_mortgage": 75927.52
+	},
+	{
+		"amount_financed": 4080000.00,
+		"chattel_mortgage": 76238.92
+	},
+	{
+		"amount_financed": 4100000.00,
+		"chattel_mortgage": 76550.32
+	},
+	{
+		"amount_financed": 4120000.00,
+		"chattel_mortgage": 76921.72
+	},
+	{
+		"amount_financed": 4140000.00,
+		"chattel_mortgage": 77233.12
+	},
+	{
+		"amount_financed": 4160000.00,
+		"chattel_mortgage": 77544.52
+	},
+	{
+		"amount_financed": 4180000.00,
+		"chattel_mortgage": 77855.92
+	},
+	{
+		"amount_financed": 4200000.00,
+		"chattel_mortgage": 78167.32
+	},
+	{
+		"amount_financed": 4220000.00,
+		"chattel_mortgage": 78538.72
+	},
+	{
+		"amount_financed": 4240000.00,
+		"chattel_mortgage": 78850.12
+	},
+	{
+		"amount_financed": 4260000.00,
+		"chattel_mortgage": 79161.52
+	},
+	{
+		"amount_financed": 4280000.00,
+		"chattel_mortgage": 79472.92
+	},
+	{
+		"amount_financed": 4300000.00,
+		"chattel_mortgage": 79784.32
+	},
+	{
+		"amount_financed": 4320000.00,
+		"chattel_mortgage": 80155.72
+	},
+	{
+		"amount_financed": 4340000.00,
+		"chattel_mortgage": 80467.12
+	},
+	{
+		"amount_financed": 4360000.00,
+		"chattel_mortgage": 80778.52
+	},
+	{
+		"amount_financed": 4380000.00,
+		"chattel_mortgage": 81089.92
+	},
+	{
+		"amount_financed": 4400000.00,
+		"chattel_mortgage": 81401.32
+	},
+	{
+		"amount_financed": 4420000.00,
+		"chattel_mortgage": 81772.72
+	},
+	{
+		"amount_financed": 4440000.00,
+		"chattel_mortgage": 82084.12
+	},
+	{
+		"amount_financed": 4460000.00,
+		"chattel_mortgage": 82395.52
+	},
+	{
+		"amount_financed": 4480000.00,
+		"chattel_mortgage": 82706.92
+	},
+	{
+		"amount_financed": 4500000.00,
+		"chattel_mortgage": 83018.32
+	},
+	{
+		"amount_financed": 4520000.00,
+		"chattel_mortgage": 83389.72
+	},
+	{
+		"amount_financed": 4540000.00,
+		"chattel_mortgage": 83701.12
+	},
+	{
+		"amount_financed": 4560000.00,
+		"chattel_mortgage": 84012.52
+	},
+	{
+		"amount_financed": 4580000.00,
+		"chattel_mortgage": 84323.92
+	},
+	{
+		"amount_financed": 4600000.00,
+		"chattel_mortgage": 84635.32
+	},
+	{
+		"amount_financed": 4620000.00,
+		"chattel_mortgage": 85006.72
+	},
+	{
+		"amount_financed": 4640000.00,
+		"chattel_mortgage": 85318.12
+	},
+	{
+		"amount_financed": 4660000.00,
+		"chattel_mortgage": 85629.52
+	},
+	{
+		"amount_financed": 4680000.00,
+		"chattel_mortgage": 85940.92
+	},
+	{
+		"amount_financed": 4700000.00,
+		"chattel_mortgage": 86252.32
+	},
+	{
+		"amount_financed": 4720000.00,
+		"chattel_mortgage": 86623.72
+	},
+	{
+		"amount_financed": 4740000.00,
+		"chattel_mortgage": 86935.12
+	},
+	{
+		"amount_financed": 4760000.00,
+		"chattel_mortgage": 87246.52
+	},
+	{
+		"amount_financed": 4780000.00,
+		"chattel_mortgage": 87557.92
+	},
+	{
+		"amount_financed": 4800000.00,
+		"chattel_mortgage": 87869.32
+	},
+	{
+		"amount_financed": 4820000.00,
+		"chattel_mortgage": 88240.72
+	},
+	{
+		"amount_financed": 4840000.00,
+		"chattel_mortgage": 88552.12
+	},
+	{
+		"amount_financed": 4860000.00,
+		"chattel_mortgage": 88863.52
+	},
+	{
+		"amount_financed": 4880000.00,
+		"chattel_mortgage": 89174.92
+	},
+	{
+		"amount_financed": 4900000.00,
+		"chattel_mortgage": 89486.32
+	},
+	{
+		"amount_financed": 4920000.00,
+		"chattel_mortgage": 89857.72
+	},
+	{
+		"amount_financed": 4940000.00,
+		"chattel_mortgage": 90169.12
+	},
+	{
+		"amount_financed": 4960000.00,
+		"chattel_mortgage": 90480.52
+	},
+	{
+		"amount_financed": 4980000.00,
+		"chattel_mortgage": 90791.92
+	},
+	{
+		"amount_financed": 5000000.00,
+		"chattel_mortgage": 91103.32
+	}
+]
