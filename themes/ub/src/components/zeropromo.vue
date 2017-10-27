@@ -26,12 +26,12 @@
                         </div>
                     </div>
                     
-                    <!--
-                    <p class="promo-price">
+                    
+                    <p class="promo-price" v-if="selectedZeroPromoCar.srp !== '' ">
                         SRP: ₱ {{selectedZeroPromoCar.srp}} <br>
                         at {{selectedZeroPromoCar.downpayment}} downpayment, {{selectedZeroPromoCar.term}} months
                     </p>
-                    -->
+                    
 
                     <p class="promo-valid">
                         *Promo valid from {{zeropromoDetail.start_date}} to {{zeropromoDetail.end_date}} Only. Terms and Conditions Apply.
