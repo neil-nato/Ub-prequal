@@ -8,14 +8,14 @@
       </div>
       <div class="col-md-3">
         <div class="calc-col">
-          <!-- <budget-col :disabled="isDisabled" /> -->
-          <budget-col />
+          <budget-col :disabled="isDisabled" />
+          <!-- <budget-col /> -->
         </div>
       </div>
       <div class="col-md-3">
         <div class="calc-col">
-          <!-- <summary-col :disabled="isNotFilled" /> -->
-          <summary-col />
+          <summary-col :disabled="isNotFilled" />
+          <!-- <summary-col /> -->
         </div>
       </div>
     </div>
@@ -25,21 +25,21 @@
 <script>
 import { mapState } from 'vuex';
 import _ from 'lodash';
-//import { checkIfEmpty } from '../../util';
+import  checkIfEmpty  from '../../util';
 
 export default {
     props: ['selected'],
     computed: {
         ...mapState(['selectedCar', 'selectedBudget']),
-        // isDisabled(state) {
-        //     let selectedCar = state.selectedCar;
-        //     return this.selected == 'car' && checkIfEmpty(selectedCar);
-        // },
-        // isNotFilled(state) {
-        //     let selectedBudget = state.selectedBudget;
-        //     let selectedCar = state.selectedCar;
-        //     return checkIfEmpty(selectedBudget) || checkIfEmpty(selectedCar);
-        // },
+        isDisabled(state) {
+            let selectedCar = state.selectedCar;
+            return this.selected == 'car' && checkIfEmpty(selectedCar);
+        },
+        isNotFilled(state) {
+            let selectedBudget = state.selectedBudget;
+            let selectedCar = state.selectedCar;
+            return checkIfEmpty(selectedBudget) || checkIfEmpty(selectedCar);
+        },
     },
 };
 </script>
