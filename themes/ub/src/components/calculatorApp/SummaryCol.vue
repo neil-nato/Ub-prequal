@@ -48,7 +48,7 @@
         </strong>
       </div>
 
-      <strong>Points to be awarded (select one)</strong>
+      <p class="summary-text">Points to be awarded (select one)</p>
       <br>
       <!-- <div class="summary-item">
         <label for="car-price">GetGo Points:</label>
