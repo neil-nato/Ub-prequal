@@ -28,3 +28,26 @@
 .text-transform {
   text-transform: uppercase;
 }
+
+.primary-button {
+  border: 2px solid $gold;
+  background-color: $gold;
+  border-radius: 32px;
+  color: white;
+  &:hover {
+    background-color: $gold-darken;
+    border-color: $gold-darken;
+  }
+}
+
+.secondary-button {
+  background-color: white;
+  border: 2px solid $gold;
+  border-radius: 32px;
+  color: $gray-darker;
+  &:hover {
+    background-color: $gold-lighten;
+    border-color: $gold;
+    color: $gray-darker;
+  }
+}
