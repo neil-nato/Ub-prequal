@@ -5,12 +5,12 @@
   padding-bottom: 5;
 
   .back-tab {
-    margin-top: 50px;
+    margin: 50px 0;
       a.calculator-back-btn {
         color: $gold;
         text-decoration: underline;
         cursor: pointer;
-        font-size: 20px;
+        font-size: 18px;
           &:hover {
             @extend .calculator-back-btn;
           }
@@ -56,25 +56,31 @@
     .calculator-info {
       padding-top: 100px;
       .paragraph-column {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
       }
       .button-column {
         margin-top: 30px;
           .primary-button {
             margin: 10px;
-            width: 453px;
-            height: 69px;
-            font-size: 24px;
+            width: 400px;
+            height: 50px;
+            font-size: 18px;
             &:active, &:focus {
               box-shadow: none;
             }
           }
+
           .secondary-button {
             margin: 10px;
-            width: 453px;
-            height: 69px;
-            font-size: 24px;
+            width: 400px;
+            height: 50px;
+            font-size: 18px;
             color: $gold;
+
+            &:hover {
+              color : white;
+              background-color: $gold;
+            }
             &:active, &:focus {
               box-shadow: none;
             }

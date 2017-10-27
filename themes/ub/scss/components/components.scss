@@ -25,6 +25,20 @@
   }
 }
 
+button, a {
+  transition : .7s !important;
+}
+
+select, input, textarea {
+    outline: 0;
+    box-shadow: none !important;
+
+    &:focus, &:active {
+      border: 2px solid $gold !important;
+  }
+}
+
+
 .text-transform {
   text-transform: uppercase;
 }
