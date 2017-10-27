@@ -2,7 +2,7 @@
   <div id="calculator-section" class="calculator-section">
     <div class="container">
       <div class="back-tab">
-        <a class="calculator-back-btn">< Back to home page</a>
+        <a href="/" class="calculator-back-btn">< Back to home page</a>
       </div>
 
       <h2>Autoloan Calculator</h2>
@@ -50,7 +50,7 @@
         </b-row>
       </div>
       <div class="back-tab">
-        <a class="calculator-back-btn">< Back to home page</a>
+        <a href="/" class="calculator-back-btn">< Back to home page</a>
       </div>
     </div>
 
