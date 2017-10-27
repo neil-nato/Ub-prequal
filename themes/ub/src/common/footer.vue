@@ -1,7 +1,5 @@
 <template lang="html">
   <footer>
-    <div class="top-border"></div>
-
     <div class="footer-main">
       <div class="container">
         <div class="footer-brand">
@@ -11,51 +9,29 @@
         </div>
 
         <ul class="footer-nav">
-          <li v-for="items in nav">
-            <a :href="items.menuLinks">
-              {{ items.menu }}
-            </a>
-          </li>
+          <li><a href="https://www.unionbankph.com/">Unionbank.ph</a></li>
+          <li><a href="faq">Faq</a></li>
+          <li><a href="contact-us">Contact Us</a></li>
+          <li><a href="terms">Terms and Condition</a></li>
+          <li><a href="privay-policy">Privacy Policy</a></li>
+        </ul>
+        <ul class="footer-nav">
+          <li><a href="https://www.getgo.com.ph/">Getgo.com.ph</a></li>
         </ul>
       </div>
     </div>
+    <!-- <a class="sticky-button shadow" onclick="smoothScroll(document.getElementById('top'))">
+			<i class="fa fa-arrow-up" aria-hidden="true"></i>
+		</a> -->
   </footer>
-
 </template>
 <script>
 export default {
-    data(){
-        return {
-            nav : [
-                {
-                    menu : 'UnionBankph.com',
-                    menuLinks : '#',
-                },
-                {
-                    menu : 'FAQ',
-                    menuLinks : '#',
-                },
-                {
-                    menu : 'Contact Us',
-                    menuLinks : '#',
-                },
-                {
-                    menu : 'Terms and Conditions',
-                    menuLinks : '#',
-                },
-                {
-                    menu : 'Privacy Policy',
-                    menuLinks : '#',
-                },
-                {
-                    menu : 'Getgo.com.ph',
-                    menuLinks : '#',
-                },
-            ],
-        };
-    },
 };
 </script>
 
 <style lang="css">
+ footer h2 {
+   margin: 0;
+ }
 </style>
