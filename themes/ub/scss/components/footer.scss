@@ -19,24 +19,32 @@ footer {
       padding: 0;
       display: flex;
       justify-content: space-between;
-      li {
-        list-style-type: none;
-        display: inline-block;
-        a {
-          color: #8b8f95;
-          font-weight: 600;
-          padding: .5rem 2rem;
-          text-decoration: none;
-          text-transform: uppercase;
+        li {
+          list-style-type: none;
+          display: inline-block;
+          a {
+            color: #8b8f95;
+            font-weight: 600;
+            padding: .5rem 2rem;
+            text-decoration: none;
+            text-transform: uppercase;
+          }
+          &:first-child a {
+            color: #fff;
+            padding-left: 0;
+          }
+          &:last-child a {
+            color: #fff;
+          }
         }
-        &:first-child a {
-          color: #fff;
-          padding-left: 0;
+
+
+        &:last-child li {
+
+            &:first-child {
+              margin-top: 20px;
+            }
         }
-        &:last-child a {
-          color: #fff;
-        }
-      }
     }
   }
 }
