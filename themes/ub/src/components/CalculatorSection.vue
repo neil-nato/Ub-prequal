@@ -7,34 +7,48 @@
 
       <h2>Autoloan Calculator</h2>
 
-      <ul class="calculator-tab" role="tablist">        
+      <!-- <ul class="calculator-tab" role="tablist">
         <li class="nav-item">
-          <a data-toggle="tab" role="tab" class="nav-link" href="#start-budget" @click="selectedTab = 'budget',clearSelection()">Start with Budget</a>
+          <a data-toggle="tab" role="tab" class="nav-link" href="#start-budget" data-target="#start-budget" @click="selectedTab = 'budget',clearSelection()">Start with Budget</a>
         </li>
         <li class="nav-item">
-          <a data-toggle="tab" role="tab" class="nav-link" href="#start-car" @click="selectedTab = 'car',clearSelection()">Start with Car</a>
+          <a data-toggle="tab" role="tab" class="nav-link" href="#start-car" data-target="#start-car"  @click="selectedTab = 'car',clearSelection()">Start with Car</a>
         </li>
       </ul>
 
-      <!-- Tab panes -->
       <div class="tab-content calculator-app">
           <start-budget-tab :selected='selectedTab'/>
           <start-car-tab :selected='selectedTab' />
-          <div class="calculator-info">
-            <b-row>
-              <b-col class="paragraph-column" cols="8" offset="2">{{ paragraph }}</b-col>
-            </b-row>
-            <b-row>
-              <b-col class="center button-column" cols="8" offset="2">
-                <b-button v-b-modal.modalAccountHolder class="primary-button">Apply for auto loan now!</b-button> <br>
-                 <a href="#calculator-section" @click="clearSelection">
-                  <b-button @click="clearSelection" class="secondary-button">I want to check for another car</b-button>
-                </a>
-              </b-col>
-            </b-row>
-          </div>
-      </div>
+      </div> -->
 
+      <b-tabs class='calculator-tab'>
+        <div class="calculator-app">
+          <b-tab title="Start With My Budget" active>
+              <start-budget-tab :selected='selectedTab'/>
+          </b-tab>
+          <b-tab title="Start With My Car">
+              <start-car-tab :selected='selectedTab' />
+          </b-tab>
+        </div>
+
+      </b-tabs>
+
+
+
+
+      <div class="calculator-info">
+        <b-row>
+          <b-col class="paragraph-column" cols="8" offset="2">{{ paragraph }}</b-col>
+        </b-row>
+        <b-row>
+          <b-col class="center button-column" cols="8" offset="2">
+            <b-button v-b-modal.modalAccountHolder class="primary-button">Apply for auto loan now!</b-button> <br>
+             <a href="#calculator-section" @click="clearSelection">
+              <b-button @click="clearSelection" class="secondary-button">I want to check for another car</b-button>
+            </a>
+          </b-col>
+        </b-row>
+      </div>
       <div class="back-tab">
         <a class="calculator-back-btn">< Back to home page</a>
       </div>
