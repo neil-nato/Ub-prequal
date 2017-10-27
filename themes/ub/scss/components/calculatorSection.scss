@@ -5,12 +5,12 @@
   padding-bottom: 5;
 
   .back-tab {
-    margin-top: 50px;
+    margin: 50px 0;
       a.calculator-back-btn {
         color: $gold;
         text-decoration: underline;
         cursor: pointer;
-        font-size: 20px;
+        font-size: 18px;
           &:hover {
             @extend .calculator-back-btn;
           }
