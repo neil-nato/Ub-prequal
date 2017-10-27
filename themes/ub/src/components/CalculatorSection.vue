@@ -22,11 +22,12 @@
       </div> -->
 
       <b-tabs class='calculator-tab'>
+
         <div class="calculator-app">
-          <b-tab title="Start With My Budget" active>
+          <b-tab title="Start With My Budget" active @click="selectedTab = 'budget',clearSelection()">
               <start-budget-tab :selected='selectedTab'/>
           </b-tab>
-          <b-tab title="Start With My Car">
+          <b-tab title="Start With My Car" @click="selectedTab = 'car',clearSelection()">
               <start-car-tab :selected='selectedTab' />
           </b-tab>
         </div>
