@@ -26,7 +26,7 @@
             </b-row>
             <b-row>
               <b-col class="center button-column" cols="8" offset="2">
-                <b-button class="primary-button">Apply for auto loan now!</b-button> <br>
+                <b-button v-b-modal.modalAccountHolder class="primary-button">Apply for auto loan now!</b-button> <br>
                 <b-button class="secondary-button">I want to check for another car</b-button>
               </b-col>
             </b-row>
