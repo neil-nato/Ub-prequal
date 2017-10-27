@@ -5,7 +5,7 @@
 			<div class="row">
 				<div class="col col-md-8 banner">
 					<div class="banner-text">
-						<h3>Contratulations!</h3>
+						<h3>Congratulations!</h3>
 						<p>
 							You qualify for autoloan details <br>
 							mechanics points wheels.
