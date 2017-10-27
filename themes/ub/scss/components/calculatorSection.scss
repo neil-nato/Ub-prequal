@@ -56,24 +56,24 @@
     .calculator-info {
       padding-top: 100px;
       .paragraph-column {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
       }
       .button-column {
         margin-top: 30px;
           .primary-button {
             margin: 10px;
-            width: 453px;
-            height: 69px;
-            font-size: 24px;
+            width: 400px;
+            height: 50px;
+            font-size: 18px;
             &:active, &:focus {
               box-shadow: none;
             }
           }
           .secondary-button {
             margin: 10px;
-            width: 453px;
-            height: 69px;
-            font-size: 24px;
+            width: 400px;
+            height: 50px;
+            font-size: 18px;
             color: $gold;
             &:active, &:focus {
               box-shadow: none;
