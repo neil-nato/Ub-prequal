@@ -144,10 +144,11 @@ export const store = new Vuex.Store({
         },
 
         calculateChattelMortgageFee : ( {commit, state }) => {
-            axios.get('data/cmf.json').then( response => {
-        //console.log(state.setSelectedBudget.budget)
+
+            axios.get('data/cmf').then( response => {
+                //console.log(state.setSelectedBudget.budget)
                 console.log(response.data);
-        //console.log(getChattelMortgageFee(state.setSelectedBudget.budget, response.data))
+                //console.log(getChattelMortgageFee(state.setSelectedBudget.budget, response.data))
                 commit('setChattelMortgageFee', {...response.data});
             });
         },
