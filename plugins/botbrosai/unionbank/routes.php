@@ -28,6 +28,6 @@ Route::get('/api/ammort','botbrosai\unionbank\controllers\GuzzleController@calcu
 
 //CHATTLE MORTGAGE
 Route::get('/data/cmf', function() {
-    return response()->file('plugins\botbrosai\unionbank\data\cmf.json');
+    return response()->file('plugins/botbrosai/unionbank/data/cmf.json');
 })
 ?>
