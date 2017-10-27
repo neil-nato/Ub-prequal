@@ -25,7 +25,7 @@
 <script>
 import { mapState } from 'vuex';
 import _ from 'lodash';
-import  util from './../../util';
+import  checkIfEmpty from './../../util';
 
 export default {
     props: ['selected'],
@@ -33,12 +33,12 @@ export default {
         ...mapState(['selectedBudget', 'selectedCar']),
         isDisabled(state) {
             let selectedBudget = state.selectedBudget;
-            return this.selected == 'budget' && util(selectedBudget);
+            return this.selected == 'budget' && checkIfEmpty(selectedBudget);
         },
         isNotFilled(state) {
             let selectedBudget = state.selectedBudget;
             let selectedCar = state.selectedCar;
-            return util(selectedBudget) || util(selectedCar);
+            return checkIfEmpty(selectedBudget) || checkIfEmpty(selectedCar);
         },
     },
 };
