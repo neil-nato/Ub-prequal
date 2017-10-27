@@ -21,7 +21,6 @@ let baseData = {
     budget: {
         budget: '',
         downpayment: '',
-        selectedReward: '',
         terms: '',
     },
     summary : {
@@ -30,6 +29,7 @@ let baseData = {
         downpaymentpct : '0',
         ammountFinanced: '0',
         acquiredPoints: '',
+        selectedReward: '',
     },
     api :{
         ammort : {
@@ -187,6 +187,12 @@ export const store = new Vuex.Store({
             });
         },
 
+        getReward: ( { commit, state } ) => {
+            commit('setSelectedReward', {
+                ...state.summary,
+            });
+        },
+
         getApplicant: ( { commit, state }, payload, comaker) => {
             let fieldname = Object.keys(payload)[0];
             let newVariable = {};
@@ -279,6 +285,10 @@ export const store = new Vuex.Store({
         setSelectedBudget: ( state, list ) => {
             console.log(list);
             state.selectedBudget = list;
+        },
+        setReward: ( state, list ) => {
+            console.log(list);
+            state.summary = list;
         },
         setApplicant: ( state, list ) => {
             console.log(list);
