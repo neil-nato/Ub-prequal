@@ -71,22 +71,24 @@
       <div class="button-container row center">
         <div>
           <li class="center">
-            <input type="radio" name="points" id="getgo-radio" v-model="selectedBudget.selectedReward" value="GetGo" @change="getBudget({selectedReward: selectedBudget.selectedReward})"/>
-            <label for="getgo-radio" class="getgo">
+            <input type="radio" name="points" id="getgoRadio" v-model="summary.selectedReward" value="GetGo" @input="getReward({selectedReward: summary.selectedReward})"/>
+            <label for="getgoRadio" class="getgo">
                 <span class="points-span center">
                   <img src="themes/ub/assets/images/getgo-orange.png" alt="Get Go Points"><br>
-                  {{ summary.acquiredPoints }}  Ceb GetGo Points
+                  <span v-if="summary.acquiredPoints">{{ summary.acquiredPoints.toLocaleString() }}  </span>
+                  Ceb GetGo Points
                 </span>
             </label>
           </li>
         </div>
         <div>
           <li class="center">
-            <input type="radio" name="points" id="gasgo-radio" v-model="selectedBudget.selectedReward" value="Gas" @change="getBudget({selectedReward: selectedBudget.selectedReward})"/>
-            <label for="gasgo-radio" class="gasgo">
+            <input type="radio" name="points" id="gasgoRadio" v-model="summary.selectedReward" value="Gas" @input="getReward({selectedReward: summary.selectedReward})"/>
+            <label for="gasgoRadio" class="gasgo">
                 <span class="points-span center">
                   <img class="gas-points-img center" src="themes/ub/assets/images/car-anticon.png" alt="Gas Points"> <br>
-                  {{ summary.acquiredPoints }} Gas Points
+                  <span v-if="summary.acquiredPoints">{{ summary.acquiredPoints.toLocaleString() }}  </span>
+                  Gas Points
                 </span>
             </label>
           </li>
@@ -115,6 +117,7 @@ export default {
     methods : {
         ...mapActions([
             'getBudget',
+            'getReward',
             'calculateChattelMortgageFee',
         ]),
     },
