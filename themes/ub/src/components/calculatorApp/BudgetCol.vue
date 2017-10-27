@@ -2,7 +2,8 @@
   <div class="calc-item">
     <div class="budget-col">
         <div class="col-icon">
-          <i class="fa fa-dollar"></i>
+          <!-- <i class="fa fa-dollar"></i> -->
+          <img src="themes/ub/assets/images/pigicon-orange.png" alt="">
           <br>
           <span>Your Budget</span>
         </div>

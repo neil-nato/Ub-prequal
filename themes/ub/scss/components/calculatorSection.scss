@@ -105,12 +105,15 @@
         .col-icon {
           color : $gold;
           margin-bottom: 40px;
-          i {
-            font-size: 40px;
-          }
-          span {
-            font-size: 2rem;
-          }
+              i {
+                font-size: 40px;
+              }
+              span {
+                font-size: 2rem;
+              }
+              img {
+                height: 40px;
+              }
         }
 
         .form-button {
@@ -181,6 +184,7 @@
           @extend .text-transform;
             .unit {
               color: $gold;
+              line-height: normal;
               font-size: 1.3rem;
               font-weight:normal;
             }

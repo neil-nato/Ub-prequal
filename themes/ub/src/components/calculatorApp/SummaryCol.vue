@@ -4,7 +4,7 @@
     <div class="summary">
       <span>Summary</span>
       <div class="summary-item unit-container">
-        <label class="unit" for="unit">{{ summary.vehicle_desc }}</label>
+        <label class="unit" for="unit" v-if="summary.vehicle_desc !== ' undefined'">{{ summary.vehicle_desc }}</label>
       </div>
       <div class="summary-item">
         <label for="car-price">Car Price:</label>

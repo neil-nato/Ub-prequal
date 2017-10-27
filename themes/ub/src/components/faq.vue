@@ -4,18 +4,17 @@
             <h2>FAQ</h2>
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                 <div class="panel panel-default" v-for="faqdetail in faqList">
-                    <div class="panel-heading" role="tab">
-                        <div class="panel-title">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" v-bind:href="'#'+faqdetail.id"  aria-expanded="true" v-bind:aria-controls="faqdetail.id">
-                            <span class="faq-icon">+</span>
-                            {{faqdetail.question}}
-                            </a>
+                    <div class="faq-container">
+                        <div v-b-toggle="faqdetail.id.toLocaleString()" class="accordion-head" v-on:click="isActive()">
+                          <span id="faq-icon" class="faq-icon"><i :class="icon" aria-hidden="true"></i></span>
+                          <span class="faq-question">{{ faqdetail.question }}</span>
                         </div>
-                    </div>
-                    <div v-bind:id="faqdetail.id" class="panel-collapse collapse" role="tabpanel">
-                        <div class="panel-body">
-                        {{faqdetail.answer}}    
-                        </div>
+
+                        <b-collapse v-bind:id="faqdetail.id.toLocaleString()" class="accordion-body">
+                            <ul>
+                              <li> {{ faqdetail.answer }} </li>
+                            </ul>
+                        </b-collapse>
                     </div>
                 </div>
             </div>
@@ -27,6 +26,12 @@
     import { mapState, mapActions } from 'vuex';
 
     export default {
+        data () {
+            return {
+                icon: 'fa fa-plus',
+                iconStatus: true,
+            };
+        },
         computed:{
             ...mapState([
                 'faqList',
@@ -37,6 +42,15 @@
             ...mapActions([
                 'loadFaqList',
             ]),
+            isActive() {
+                this.iconStatus = !this.iconStatus;
+                if (this.iconStatus) {
+                    this.icon = 'fa fa-plus';
+                } else {
+                    this.icon = 'fa fa-minus';
+
+                }
+            },
         },
 
         mounted(){
