@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="calculator-section">
+  <div id="calculator-section" class="calculator-section">
     <div class="container">
       <div class="back-tab">
         <a class="calculator-back-btn">< Back to home page</a>
@@ -27,7 +27,9 @@
             <b-row>
               <b-col class="center button-column" cols="8" offset="2">
                 <b-button v-b-modal.modalAccountHolder class="primary-button">Apply for auto loan now!</b-button> <br>
-                <b-button class="secondary-button">I want to check for another car</b-button>
+                 <a href="#calculator-section" @click="clearSelection">
+                  <b-button @click="clearSelection" class="secondary-button">I want to check for another car</b-button>
+                </a>
               </b-col>
             </b-row>
           </div>
