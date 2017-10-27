@@ -1,6 +1,6 @@
- module.exports = {
+ const util = {
  // check if each property in the obj is empty
-     checkIfEmpty: (obj) => {
+     checkIfEmpty : (obj) => {
          let isEmpty = 0;
 
          for(var prop in obj) {
@@ -16,3 +16,4 @@
          return isEmpty != Object.keys(obj).length;
      },
  };
+ export default util.checkIfEmpty;

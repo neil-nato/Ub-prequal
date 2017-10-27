@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="calculator-section">
+  <div id="calculator-section" class="calculator-section">
     <div class="container">
       <div class="back-tab">
         <a class="calculator-back-btn">< Back to home page</a>
@@ -7,27 +7,29 @@
 
       <h2>Autoloan Calculator</h2>
 
-      <ul class="calculator-tab" role="tablist">
-        <li class="nav-item">
-          <a data-toggle="tab" role="tab" class="nav-link" href="#start-car" @click="selectedTab = 'car',clearSelection()">Start with Car</a>
-        </li>
+      <ul class="calculator-tab" role="tablist">        
         <li class="nav-item">
           <a data-toggle="tab" role="tab" class="nav-link" href="#start-budget" @click="selectedTab = 'budget',clearSelection()">Start with Budget</a>
+        </li>
+        <li class="nav-item">
+          <a data-toggle="tab" role="tab" class="nav-link" href="#start-car" @click="selectedTab = 'car',clearSelection()">Start with Car</a>
         </li>
       </ul>
 
       <!-- Tab panes -->
       <div class="tab-content calculator-app">
-          <start-car-tab :selected='selectedTab' />
           <start-budget-tab :selected='selectedTab'/>
+          <start-car-tab :selected='selectedTab' />
           <div class="calculator-info">
             <b-row>
               <b-col class="paragraph-column" cols="8" offset="2">{{ paragraph }}</b-col>
             </b-row>
             <b-row>
               <b-col class="center button-column" cols="8" offset="2">
-                <b-button class="primary-button">Apply for auto loan now!</b-button> <br>
-                <b-button class="secondary-button">I want to check for another car</b-button>
+                <b-button v-b-modal.modalAccountHolder class="primary-button">Apply for auto loan now!</b-button> <br>
+                 <a href="#calculator-section" @click="clearSelection">
+                  <b-button @click="clearSelection" class="secondary-button">I want to check for another car</b-button>
+                </a>
               </b-col>
             </b-row>
           </div>
