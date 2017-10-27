@@ -166,7 +166,7 @@
           border-left: 4px solid $gold;
         }
 
-        span {
+        .title {
           font-size: 2rem;
           font-weight: bold;
           color: $gray-darker;
@@ -181,18 +181,24 @@
           justify-content: space-between;
           align-items: center;
           line-height: 90%;
-          @extend .text-transform;
-            .unit {
-              color: $gold;
-              line-height: normal;
-              font-size: 1.3rem;
-              font-weight:normal;
-            }
+          padding: 10px;
 
-            label {
-              display: block;
-              margin-bottom: 0;
-            }
+            @extend .text-transform;
+              .unit {
+                color: $gold;
+                line-height: normal;
+                font-size: 1.3rem;
+                font-weight:normal;
+              }
+
+              label {
+                display: block;
+                margin-bottom: 0;
+
+                  span {
+                    font-size: 18px;
+                  }
+              }
         }
 
         .summary-text {
@@ -202,19 +208,63 @@
         }
 
         .button-container {
-          display: flex;
-          justify-content: space-between;
-          align-items: flex-end;
-            .summary-button {
-              width: 196px;
-              height: 96px;
-              border-radius: 32px;
-              outline: 0;
-                .gas-points-img {
-                  height: 50px;
-                  width: 50px;
-                }
+          justify-content: space-around;
 
+            li {
+              list-style-type: none;
+
+               input[type="radio"] {
+                 position: absolute;
+                 visibility: hidden;
+
+                  &:checked ~ label, &:checked ~ label, &:active ~ label, &:active ~ label {
+                    width: 280px;
+                    height: 120px;
+                    font-size: 20px;
+                  }
+               }
+
+               .getgo {
+                 @extend .getgo-buttons;
+                 display: flex;
+                 margin: 0;
+                 cursor: pointer;
+
+                    span {
+                      align-self: center;
+
+                        .gas-points-img {
+                          height: 50px;
+                          width: 50px;
+                        }
+                    }
+
+                    &:hover {
+                      background-color: $gold-darken;
+                    }
+               }
+
+              .gasgo {
+                 @extend .getgo-buttons;
+                 background-color: $gold;
+                 display: flex;
+                 margin: 0;
+                 cursor: pointer;
+
+                   span {
+                     align-self: center;
+                     color: white;
+
+                       .gas-points-img {
+                         height: 50px;
+                         width: 50px;
+                       }
+                   }
+
+                   &:hover {
+                     background-color: $gold-darken;
+                   }
+               }
             }
         }
 

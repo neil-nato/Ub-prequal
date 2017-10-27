@@ -21,6 +21,7 @@ let baseData = {
     budget: {
         budget: '',
         downpayment: '',
+        selectedReward: '',
         terms: '',
     },
     summary : {
@@ -28,7 +29,7 @@ let baseData = {
         vehicle_lcp: '0', //price
         downpaymentpct : '0',
         ammountFinanced: '0',
-        acquiredGetgoPoints: '',
+        acquiredPoints: '',
     },
     api :{
         ammort : {
@@ -43,7 +44,7 @@ let baseData = {
         },
         chattel : {
             'amount_financed': '',
-  		'chattel_mortgage': '',
+  		      'chattel_mortgage': '',
         },
         document : {
 
@@ -179,7 +180,6 @@ export const store = new Vuex.Store({
             commit('setSelectedBudget', {
                 ...state.selectedBudget,
             });
-
             commit('setApiAmmort', {
                 ...state.api.ammort,
                 term : state.selectedBudget.terms,
@@ -233,14 +233,14 @@ export const store = new Vuex.Store({
 
         buildSummary : ({ commit , state }) => {
             let ammountFinanced = getAmountFinanced( state.selectedCar.model.srp, state.selectedBudget.downpayment);
-            let acquiredGetgoPoints = calculateGetgoPoints( ammountFinanced, state.getgoPoints );
+            let acquiredPoints = calculateGetgoPoints( ammountFinanced, state.getgoPoints );
 
             commit('setSummary', {
                 vehicle_desc: state.selectedCar.brand+ ' ' + state.selectedCar.model.model ,
                 vehicle_lcp: state.selectedCar.model.srp , //price
                 downpaymentpct : state.selectedBudget.downpayment ,
                 ammountFinanced ,
-                acquiredGetgoPoints,
+                acquiredPoints,
             });
         },
 
