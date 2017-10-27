@@ -12,7 +12,7 @@
           <li><a href="https://www.unionbankph.com/">Unionbank.ph</a></li>
           <li><a href="faq">Faq</a></li>
           <li><a href="contact-us">Contact Us</a></li>
-          <li><a href="terms">Terms and Condition</a></li>
+          <li><a href="terms-and-conditions">Terms and Condition</a></li>
           <li><a href="privay-policy">Privacy Policy</a></li>
         </ul>
         <ul class="footer-nav">
