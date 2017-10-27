@@ -7,19 +7,19 @@
 
       <h2>Autoloan Calculator</h2>
 
-      <ul class="calculator-tab" role="tablist">
-        <li class="nav-item">
-          <a data-toggle="tab" role="tab" class="nav-link" href="#start-car" @click="selectedTab = 'car',clearSelection()">Start with Car</a>
-        </li>
+      <ul class="calculator-tab" role="tablist">        
         <li class="nav-item">
           <a data-toggle="tab" role="tab" class="nav-link" href="#start-budget" @click="selectedTab = 'budget',clearSelection()">Start with Budget</a>
+        </li>
+        <li class="nav-item">
+          <a data-toggle="tab" role="tab" class="nav-link" href="#start-car" @click="selectedTab = 'car',clearSelection()">Start with Car</a>
         </li>
       </ul>
 
       <!-- Tab panes -->
       <div class="tab-content calculator-app">
-          <start-car-tab :selected='selectedTab' />
           <start-budget-tab :selected='selectedTab'/>
+          <start-car-tab :selected='selectedTab' />
           <div class="calculator-info">
             <b-row>
               <b-col class="paragraph-column" cols="8" offset="2">{{ paragraph }}</b-col>
