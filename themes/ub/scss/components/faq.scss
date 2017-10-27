@@ -1,0 +1,39 @@
+.faq {
+
+    .faq-container {
+      border-bottom: 1px solid $gray;
+
+        .accordion-head {
+            vertical-align: middle;
+            padding: 10px;
+            cursor: pointer;
+
+              span{
+
+                  &:first-child {
+                    color: $gold;
+                    font-size: 20px;
+                    font-weight: lighter;
+                  }
+
+                  &:last-child {
+                    padding-left: 20px;
+                    font-size: 24px;
+                    font-weight: 600;
+
+                      &:hover {
+                        color: $gold;
+                      }
+                  }
+              }
+        }
+
+        .accordion-body {
+            ul li {
+              padding-left: 20px;
+              text-decoration: none;
+              list-style-type: none;
+            }
+        }
+    }
+}
