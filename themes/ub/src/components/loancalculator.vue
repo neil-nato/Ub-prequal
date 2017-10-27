@@ -13,18 +13,17 @@
                     </p>
 
                     <div class="actions cleafix">
-                        <div class="pull-left">
-                            <i class="fa fa-car"></i>
-                            <a href="#" class="btn btn-main">
-                                Start with Car
+                        <div >
+                            <a href="/calculator" class="btn btn-main">
+                                Apply
                             </a>
                         </div>
-                        <div class="pull-left">
+                        <!-- <div class="pull-left">
                             <i class="fa fa-dollar"></i>
                             <a href="#" class="btn btn-main">
                                 Start with Budget
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col col-md-5">
