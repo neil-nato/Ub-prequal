@@ -18,12 +18,6 @@
                                 Apply
                             </a>
                         </div>
-                        <!-- <div class="pull-left">
-                            <i class="fa fa-dollar"></i>
-                            <a href="#" class="btn btn-main">
-                                Start with Budget
-                            </a>
-                        </div> -->
                     </div>
                 </div>
                 <div class="col col-md-5">
