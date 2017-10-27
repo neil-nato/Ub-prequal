@@ -20,6 +20,21 @@
       <div class="tab-content calculator-app">
           <start-car-tab :selected='selectedTab' />
           <start-budget-tab :selected='selectedTab'/>
+          <div class="calculator-info">
+            <b-row>
+              <b-col class="paragraph-column" cols="8" offset="2">{{ paragraph }}</b-col>
+            </b-row>
+            <b-row>
+              <b-col class="center button-column" cols="8" offset="2">
+                <b-button class="primary-button">Apply for auto loan now!</b-button> <br>
+                <b-button class="secondary-button">I want to check for another car</b-button>
+              </b-col>
+            </b-row>
+          </div>
+      </div>
+
+      <div class="back-tab">
+        <a class="calculator-back-btn">< Back to home page</a>
       </div>
     </div>
 
@@ -35,6 +50,7 @@ export default {
     data() {
         return {
             selectedTab: 'budget',
+            paragraph: 'It seems like you did not meet the minimum monthly income required for this car model. Don’t worry, all you have to do is include a Co-Maker when applying for a UnionBank AutoLoan to get approved! ',
         };
     },
     methods: {
