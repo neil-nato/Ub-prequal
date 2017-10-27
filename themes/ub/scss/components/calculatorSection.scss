@@ -2,6 +2,7 @@
   //@extend .section-pad-md;
   background-color: $white-bg;
   color : #333;
+  padding-bottom: 5;
 
   .back-tab {
     margin-top: 50px;
@@ -52,8 +53,36 @@
     background-color: #fff;
     display: block;
 
+    .calculator-info {
+      padding-top: 100px;
+      .paragraph-column {
+        font-size: 1.5rem;
+      }
+      .button-column {
+        margin-top: 30px;
+          .primary-button {
+            margin: 10px;
+            width: 453px;
+            height: 69px;
+            font-size: 24px;
+            &:active, &:focus {
+              box-shadow: none;
+            }
+          }
+          .secondary-button {
+            margin: 10px;
+            width: 453px;
+            height: 69px;
+            font-size: 24px;
+            color: $gold;
+            &:active, &:focus {
+              box-shadow: none;
+            }
+          }
+      }
+    }
+
     .calc-col {
-      height: 450px;
       padding-top: 0px;
       padding-right: 0px;
       padding-left: 0px;
@@ -84,18 +113,32 @@
               background-color: $gold;
               color: white;
               border-radius: 32px;
+              border-color: $gold;
               height: 48px;
               width: 210px;
               font-size: 18px;
+              position: absolute;
+              bottom: 0;
+                &:focus, &:active {
+                  box-shadow: none;
+                }
+                &:hover {
+                  background-color: $gold-darken;
+                }
+
+                @media only screen and (max-width: $medium) {
+                  position: relative;
+                }
             }
         }
 
         input {
           height: 40px;
           border-radius: 5px;
-          &:focus {
+          &:focus, &:active {
             border-color: $gold !important;
             border-width: medium;
+            box-shadow: none;
           }
         }
 
@@ -105,11 +148,14 @@
       }
 
       .summary-col {
-        height: 400px;
         margin-top: 0px;
         padding-top: 0px;
         padding-right: 20px;
         padding-left: 20px;
+
+        &:last-child {
+          border-left: 4px solid $gold;
+        }
 
         span {
           font-size: 2rem;
@@ -121,28 +167,28 @@
           margin-top: 30px;
         }
 
-        &:last-child {
-          border-left: 4px solid $gold;
-        }
-
         .summary-item {
-          padding-bottom: 2px;
-          padding-top: 2px;
           display: flex;
           justify-content: space-between;
           align-items: center;
+          line-height: 90%;
           @extend .text-transform;
-          .unit {
-            color: $gold;
-            font-size: 2rem;
-            font-weight:normal;
-          }
+            .unit {
+              color: $gold;
+              font-size: 1.3rem;
+              font-weight:normal;
+            }
 
-          label {
-            display: block;
-            margin-bottom: 0;
-          }
+            label {
+              display: block;
+              margin-bottom: 0;
+            }
+        }
 
+        .summary-text {
+          margin-top: 25px;
+          margin-bottom: 25px;
+          font-weight: bold;
         }
 
         .button-container {
@@ -159,23 +205,6 @@
                   width: 50px;
                 }
 
-                &.primary-button {
-                  border: 2px solid white;
-                  background-color: $gold;
-                  color: white;
-                  &:hover {
-                    background-color: $gold-darken;
-                  }
-                }
-
-                &.secondary-button {
-                  background-color: white;
-                  border: 2px solid $gold;
-                  color: $gray-darker;
-                  &:hover {
-                    background-color: $gold-lighten;
-                  }
-                }
             }
         }
 
