@@ -1,9 +1,9 @@
 <template>
     <section class="content-banner">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-                <div class="col col-md-8 banner d-flex align-items-end">
-                    <div class="banner-text">
+                <div class="banner">
+                    <div class="welcome-banner-text">
                         <h3>Congratulations!</h3>
                         <p>
                             You qualify for autoloan details <br>
@@ -21,5 +21,5 @@
 </script>
 
 <style>
-
+    
 </style>
