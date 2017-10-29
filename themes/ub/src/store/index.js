@@ -287,7 +287,7 @@ export const store = new Vuex.Store({
             console.log(list);
             state.selectedBudget = list;
         },
-        setReward: ( state, list ) => {
+        setSelectedReward: ( state, list ) => {
             console.log(list);
             state.summary = list;
         },
