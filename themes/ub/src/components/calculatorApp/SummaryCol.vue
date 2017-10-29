@@ -61,42 +61,26 @@
 
       <p class="summary-text">Points to be awarded (select one)</p>
       <br>
-      <!-- <div class="summary-item">
-        <label for="car-price">GetGo Points:</label>
-        <strong v-if="summary.acquiredGetgoPoints"> {{ summary.acquiredGetgoPoints.toLocaleString() }}</strong>
-      </div> -->
-
-      <!-- <button v-b-modal.modalAccountHolder class="btn btn-orange apply-submit-btn w-button" :disabled='disabled'>
-        Apply</button> -->
-      <div class="button-container row center">
-        <div>
-          <li class="center">
-            <input type="radio" name="points" id="getgoRadio" v-model="summary.selectedReward" value="GetGo" @input="getReward({selectedReward: summary.selectedReward})"/>
-            <label for="getgoRadio" class="getgo">
-                <span class="points-span center">
-                  <img src="themes/ub/assets/images/getgo-orange.png" alt="Get Go Points"><br>
-                  <span v-if="summary.acquiredPoints">{{ summary.acquiredPoints.toLocaleString() }}  </span>
-                  Ceb GetGo Points
-                </span>
-            </label>
-          </li>
-        </div>
-        <div>
-          <li class="center">
-            <input type="radio" name="points" id="gasgoRadio" v-model="summary.selectedReward" value="Gas" @input="getReward({selectedReward: summary.selectedReward})"/>
-            <label for="gasgoRadio" class="gasgo">
-                <span class="points-span center">
-                  <img class="gas-points-img center" src="themes/ub/assets/images/car-anticon.png" alt="Gas Points"> <br>
-                  <span v-if="summary.acquiredPoints">{{ summary.acquiredPoints.toLocaleString() }}  </span>
-                  Gas Points
-                </span>
-            </label>
-          </li>
-        </div>
+      <div class="button-container center">
+        <b-row class="justify-content-md-center">
+          <b-col class="getgo-reward"  align-v="center" @click="passReward('GetGo')">
+            <img class="getgo-points-img center" src="themes/ub/assets/images/getgo-orange.png" alt="Get Go Points"><br>
+            <span>
+              {{ summary.acquiredPoints.toLocaleString() }} Ceb GetGo Points
+            </span>
+          </b-col>
+          <b-col class="gas-reward" @click="passReward('Gas')">
+            <img class="gas-points-img center" src="themes/ub/assets/images/car-anticon.png" alt="Gas Points"> <br>
+            <span>
+              {{ summary.acquiredPoints.toLocaleString() }} Gas Points
+            </span>
+          </b-col>
+        </b-row>
       </div>
 
     </div>
   </div>
+
 
 </template>
 
@@ -120,12 +104,13 @@ export default {
             'getReward',
             'calculateChattelMortgageFee',
         ]),
+        passReward(reward) {
+            this.summary.selectedReward = reward;
+            this.getReward({selectedReward: this.summary.selectedReward});
+        },
     },
 };
 </script>
 
 <style lang="css">
-  .summary-col .button-container {
-    vertical-align: bottom !important;
-  }
 </style>
