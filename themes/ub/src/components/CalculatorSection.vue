@@ -24,12 +24,14 @@
       <b-tabs class='calculator-tab'>
 
         <div class="calculator-app">
-          <b-tab title="Start With My Budget" active @click="selectedTab = 'budget',clearSelection()">
+          <b-tabs pills>
+            <b-tab title="Start With My Budget" active @click="selectedTab = 'budget',clearSelection()">
               <start-budget-tab :selected='selectedTab'/>
-          </b-tab>
-          <b-tab title="Start With My Car" @click="selectedTab = 'car',clearSelection()">
-              <start-car-tab :selected='selectedTab' />
-          </b-tab>
+            </b-tab>
+            <b-tab title="Start With My Car" @click="selectedTab = 'car',clearSelection()">
+                <start-car-tab :selected='selectedTab' />
+            </b-tab>
+          </b-tabs>
         </div>
 
       </b-tabs>
@@ -43,10 +45,10 @@
         </b-row>
         <b-row>
           <b-col class="center button-column" cols="8" offset="2">
-            <b-button v-b-modal.modalAccountHolder class="primary-button">Apply for auto loan now!</b-button> <br>
+            <b-button v-b-modal.modalAccountHolder class="primary-button"><span>Apply for auto loan now!</span></b-button> <br>
              <a href="#calculator-section" @click="clearSelection">
-              <b-button @click="clearSelection" class="secondary-button">I want to check for another car</b-button>
-            </a>
+              <b-button @click="clearSelection" class="secondary-button"><span>I want to check for another car</span></b-button>
+             </a>
           </b-col>
         </b-row>
       </div>
@@ -56,7 +58,6 @@
     </div>
 
     <modal-account-holder />
-
   </div>
 </template>
 
