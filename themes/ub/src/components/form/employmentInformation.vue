@@ -10,66 +10,36 @@
         <div class="question-item">
             <label>Employment/Business Type</label>
             <div class="form-group">
-                <div class="row">
-                  <div class="form-check col-md-3 col-lg-2">
-                    <label class="custom-control custom-radio">
-                      <input v-model="empbiz_type" @change="getApplicant({empbiz_type, comaker})"
-                      v-validate="'required'"  required name="empbiz_type" type="radio" class="custom-control-input" value="0">
-                      <span class="custom-control-indicator"></span>
-                      <span class="custom-control-description">Employed - Private</span>
-                    </label>
+                  <div class="form-check">
+                    <b-form-radio-group required id="empbiz_type" v-model="empbiz_type" name="empbiz_type" @input="getApplicant({empbiz_type, comaker})">
+                      <div class="row">
+                        <div class="col-md-3 col-lg-3">
+                          <b-form-radio value="0">Employed - Private</b-form-radio>
+                        </div>
+                        <div class="col-md-3 col-lg-3">
+                          <b-form-radio value="1">Employed - Government</b-form-radio>
+                        </div>
+                        <div class="col-md-3 col-lg-3">
+                          <b-form-radio value="2">OFW</b-form-radio>
+                        </div>
+                        <div class="col-md-3 col-lg-3">
+                          <b-form-radio value="3">Sole Proprietorship</b-form-radio>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-3 col-lg-3">
+                          <b-form-radio value="4">Partnership</b-form-radio>
+                        </div>
+                        <div class="col-md-3 col-lg-3">
+                          <b-form-radio value="5">Owner of Corporation</b-form-radio>
+                        </div>
+                        <div class="col-md-3 col-lg-3">
+                          <b-form-radio value="6">Unemployed</b-form-radio>
+                        </div>
+                      </div>
+                    </b-form-radio-group>
+                    <span v-show="errors.has('nationality')" class="help is-danger">{{ error.required }}</span>
                   </div>
-                  <div class="form-check col-md-3 col-lg-2">
-                    <label class="custom-control custom-radio">
-                      <input v-model="empbiz_type" @change="getApplicant({empbiz_type, comaker})"
-                      v-validate="'required'"  required name="empbiz_type" type="radio" class="custom-control-input" value="1">
-                      <span class="custom-control-indicator"></span>
-                      <span class="custom-control-description">Employed - Government</span>
-                    </label>
-                  </div>
-                  <div class="form-check col-md-3 col-lg-2">
-                    <label class="custom-control custom-radio">
-                      <input v-model="empbiz_type" @change="getApplicant({empbiz_type, comaker})"
-                      v-validate="'required'"  required name="empbiz_type" type="radio" class="custom-control-input" value="2">
-                      <span class="custom-control-indicator"></span>
-                      <span class="custom-control-description">OFW</span>
-                    </label>
-                  </div>
-                  <div class="form-check col-md-3 col-lg-2">
-                    <label class="custom-control custom-radio">
-                      <input v-model="empbiz_type" @change="getApplicant({empbiz_type, comaker})"
-                      v-validate="'required'"  required name="empbiz_type" type="radio" class="custom-control-input" value="3">
-                      <span class="custom-control-indicator"></span>
-                      <span class="custom-control-description">Sole Proprietorship</span>
-                    </label>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="form-check col-md-3 col-lg-2">
-                    <label class="custom-control custom-radio">
-                      <input v-model="empbiz_type" @change="getApplicant({empbiz_type, comaker})"
-                      v-validate="'required'"  required name="empbiz_type" type="radio" class="custom-control-input" value="4">
-                      <span class="custom-control-indicator"></span>
-                      <span class="custom-control-description">Partnership</span>
-                    </label>
-                  </div>
-                  <div class="form-check col-md-3 col-lg-2">
-                    <label class="custom-control custom-radio">
-                      <input v-model="empbiz_type" @change="getApplicant({empbiz_type, comaker})"
-                      v-validate="'required'"  required name="empbiz_type" type="radio" class="custom-control-input" value="5">
-                      <span class="custom-control-indicator"></span>
-                      <span class="custom-control-description">Owner of a Corporation</span>
-                    </label>
-                  </div>
-                  <div class="form-check col-md-3 col-lg-2">
-                   <label class="custom-control custom-radio">
-                      <input v-model="empbiz_type" @change="getApplicant({empbiz_type, comaker})"
-                      v-validate="'required'"  required name="empbiz_type" type="radio" class="custom-control-input" value="6">
-                      <span class="custom-control-indicator"></span>
-                      <span class="custom-control-description">Unemployed</span>
-                    </label>
-                  </div>
-                </div>
 
                 <span v-show="errors.has('empbiz_type')" class="help is-danger">{{ error.required }}</span>
             </div>
