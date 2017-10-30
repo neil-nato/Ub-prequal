@@ -195,7 +195,6 @@ export const store = new Vuex.Store({
         },
 
         getApplicant: ( { commit, state }, payload, comaker) => {
-            console.log(payload);
             let fieldname = Object.keys(payload)[0];
             let newVariable = {};
 
