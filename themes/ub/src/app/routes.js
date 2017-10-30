@@ -60,7 +60,7 @@ export default [
     },
     {
         name: 'CoMaker',
-        path: '/comaker',
+        path: '/apply-comaker',
         component: CoMaker,
     },
 ];
