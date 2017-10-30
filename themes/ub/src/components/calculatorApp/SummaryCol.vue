@@ -19,11 +19,11 @@
       </div>
       <div class="summary-item">
         <label for="car-price">Chattel Mortgage Fees:</label>
-        <strong v-if="api.chattel.chattel_mortgage">
-          P{{ api.chattel.chattel_mortgage.toLocaleString() }}
+        <strong v-if="!api.chattel">P0
           <span class="exclamation"><i class="fa fa-exclamation-circle" aria-hidden="true"/></span>
         </strong>
-        <strong v-if="!api.chattel.chattel_mortgage">P0
+        <strong v-else="api.chattel.chattel_mortgage">
+          P{{ api.chattel.chattel_mortgage.toLocaleString() }}
           <span class="exclamation"><i class="fa fa-exclamation-circle" aria-hidden="true"/></span>
         </strong>
       </div>
@@ -54,7 +54,7 @@
           <span class="exclamation primary-exclamation"><i class="fa fa-exclamation-circle" aria-hidden="true"/></span>
         </strong>
         <strong v-if="!api.ammortQueryParam.amortization.monthly">
-          P{{ api.ammortQueryParam.amortization.monthly.toLocaleString() }}
+          P0
           <span class="exclamation primary-exclamation"><i class="fa fa-exclamation-circle" aria-hidden="true"/></span>
         </strong>
       </div>
@@ -65,14 +65,34 @@
         <b-row class="justify-content-md-center">
           <b-col class="getgo-reward"  align-v="center" @click="passReward('GetGo')">
             <img class="getgo-points-img center" src="themes/ub/assets/images/getgo-orange.png" alt="Get Go Points"><br>
-            <span>
-              {{ summary.acquiredPoints.toLocaleString() }} Ceb GetGo Points
+            <span v-if="summary.acquiredPoints">
+              {{ summary.acquiredPoints.toLocaleString() }} Ceb GetGo Points<br>
+            </span>
+            <span v-if="!summary.acquiredPoints">
+              Ceb GetGo Points<br>
             </span>
           </b-col>
-          <b-col class="gas-reward" @click="passReward('Gas')">
+          <b-col class="gas-reward" align-v="center" @click="passReward('Gas')">
             <img class="gas-points-img center" src="themes/ub/assets/images/car-anticon.png" alt="Gas Points"> <br>
-            <span>
-              {{ summary.acquiredPoints.toLocaleString() }} Gas Points
+            <span v-if="summary.acquiredPoints">
+              {{ summary.acquiredPoints.toLocaleString() }} Gas Points<br>
+            </span>
+            <span v-if="!summary.acquiredPoints">
+              Gas Points<br>
+            </span>
+          </b-col>
+        </b-row>
+        <b-row>
+          <b-col>
+            <span class="selected" v-if="summary.selectedReward == 'GetGo'">
+              <i class="fa fa-check" aria-hidden="true"/>
+              Selected
+            </span>
+          </b-col>
+          <b-col>
+            <span class="selected" v-if="summary.selectedReward == 'Gas'">
+              <i class="fa fa-check" aria-hidden="true"/>
+              Selected
             </span>
           </b-col>
         </b-row>
