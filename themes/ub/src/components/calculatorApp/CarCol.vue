@@ -3,10 +3,15 @@
     <div class="car-col">
       <form class="">
         <div class="form-group">
-          <div class="col-icon">
-            <i class="fa fa-car"></i>
+          <div class="col-icon" v-if="!disabled">
+            <i class="fa fa-car"/>
             <br>
             <span>Car Details</span>
+          </div>
+          <div class="col-icon" v-if="disabled">
+            <i class="fa fa-car disabled-text"/>
+            <br>
+            <span class="disabled-text">Car Details</span>
           </div>
           <select v-model="selectedCar.brand" @change="getCar({brand:selectedCar.brand})" class="form-control" data-name="Car Make" id="carMake" name="car-make" :disabled='disabled'>
             <option value="">Car Brand</option>
