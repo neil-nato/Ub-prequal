@@ -85,7 +85,7 @@
             <div class="form-group my-2">
                 <div class="row col-md-8 col-lg-6 my-2">
                     <label class="sr-only">Mobile Number</label>
-                  <input v-model="mobileno" @input="getApplicant({mobileno, comaker})"
+                  <input v-model="mobileno" v-mask="'###########'" @input="getApplicant({mobileno, comaker})"
                   v-validate="'required|numeric'"
                   name="mobileno" type="number" class="form-control mb-2 mr-sm-2 mb-sm-0"  placeholder="Mobile Number">
                   <span v-show="errors.has('mobileno')" class="help is-danger">{{ error.required }}</span>
@@ -93,7 +93,7 @@
                  <div class="row col-md-8 col-lg-6 my-2">
                     <label class="sr-only">Home Phone</label>
                   <input v-model="resphone" @input="getApplicant({resphone, comaker})"
-                  v-validate="'required|numeric'" name="resphone" type="text" class="form-control mb-2 mr-sm-2 mb-sm-0"  placeholder="Home Phone">
+                  v-validate="'required|numeric'" name="resphone" type="number" class="form-control mb-2 mr-sm-2 mb-sm-0"  placeholder="Home Phone">
                   <span v-show="errors.has('resphone')" class="help is-danger">{{ error.required }}</span>
                 </div>
                 <div class="row col-md-8 col-lg-6 my-2">
