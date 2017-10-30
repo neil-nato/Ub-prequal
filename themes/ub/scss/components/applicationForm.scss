@@ -78,6 +78,15 @@
     & > label {
       font-weight: 600;
     }
+
+    .years-of-stay {
+      font-weight: 600;
+    }
+
+    .is-danger {
+      color: $brand-danger;
+      font-size: 12px;
+    }
   }
 
   input.form-control {
