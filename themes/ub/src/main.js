@@ -4,6 +4,7 @@
 import RootComponent from './root';
 import Vue from 'vue';
 import VueRouter from 'vue-router';
+import VueMask from 'v-mask';
 import { store } from './store';
 import BootstrapVue from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -12,6 +13,7 @@ import VeeValidate from 'vee-validate';
 
 Vue.use(VeeValidate);
 Vue.use(BootstrapVue);
+Vue.use(VueMask);
 
 
 // set up our global plugins and utilities
