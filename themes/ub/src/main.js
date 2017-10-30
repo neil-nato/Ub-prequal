@@ -24,6 +24,9 @@ const router = new VueRouter({
     base: __dirname,
     mode: 'history',
     routes,
+    scrollBehavior (to, from, savedPosition) {
+        return { x: 0, y: 360 };
+    },
 });
 
 // instantiate our application and mount it to the dom
