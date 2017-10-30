@@ -195,6 +195,7 @@ export const store = new Vuex.Store({
         },
 
         getApplicant: ( { commit, state }, payload, comaker) => {
+            console.log(payload);
             let fieldname = Object.keys(payload)[0];
             let newVariable = {};
 
@@ -219,7 +220,7 @@ export const store = new Vuex.Store({
             commit('setSelectedBudget', {...baseData.budget});
             commit('setApiQueryParam', {...baseData.api.ammortQueryParam});
             commit('setSummary', {...baseData.summary});
-      //commit('setChattelMortgageFee', {...baseData.api.chattel})
+            commit('setChattelMortgageFee', {...baseData.api.chattel});
 
         },
 
