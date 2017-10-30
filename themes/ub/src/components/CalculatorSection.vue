@@ -41,13 +41,13 @@
 
       <div class="calculator-info">
         <b-row>
-          <b-col class="paragraph-column" cols="8" offset="2">{{ paragraph }}</b-col>
+          <b-col class="paragraph-column" lg="8" sm="12" offset-lg="2">{{ paragraph }}</b-col>
         </b-row>
         <b-row>
-          <b-col class="center button-column" cols="8" offset="2">
+          <b-col class="center button-column" lg="8" sm="12" offset-lg="2">
             <b-button v-b-modal.modalAccountHolder class="primary-button"><span>Apply for auto loan now!</span></b-button> <br>
              <a href="#calculator-section" @click="clearSelection">
-              <b-button @click="clearSelection" class="secondary-button"><span>I want to check for another car</span></b-button>
+            <b-button @click="clearSelection" class="secondary-button"><span>I want to check for another car</span></b-button>
              </a>
           </b-col>
         </b-row>
