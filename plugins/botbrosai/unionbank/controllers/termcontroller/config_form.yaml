@@ -1,0 +1,10 @@
+name: TermController
+form: $/botbrosai/unionbank/models/term/fields.yaml
+modelClass: BotbrosAi\UnionBank\Models\Term
+defaultRedirect: botbrosai/unionbank/termcontroller
+create:
+    redirect: 'botbrosai/unionbank/termcontroller/update/:id'
+    redirectClose: botbrosai/unionbank/termcontroller
+update:
+    redirect: botbrosai/unionbank/termcontroller
+    redirectClose: botbrosai/unionbank/termcontroller

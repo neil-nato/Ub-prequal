@@ -1,0 +1,11 @@
+list: $/botbrosai/unionbank/models/downpayment/columns.yaml
+modelClass: BotbrosAi\UnionBank\Models\Downpayment
+title: DownpaymentController
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'botbrosai/unionbank/downpaymentcontroller/update/:id'

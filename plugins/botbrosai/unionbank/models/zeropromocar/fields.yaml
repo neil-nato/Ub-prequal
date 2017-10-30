@@ -33,12 +33,16 @@ fields:
     downpayment:
         label: Downpayment
         oc.commentPosition: ''
+        nameFrom: downpayment
+        descriptionFrom: description
         span: left
         required: 1
-        type: text
+        type: relation
     term:
-        label: 'Term (Monthly)'
+        label: Term
         oc.commentPosition: ''
-        span: left
+        nameFrom: term
+        descriptionFrom: description
+        span: right
         required: 1
-        type: text
+        type: relation

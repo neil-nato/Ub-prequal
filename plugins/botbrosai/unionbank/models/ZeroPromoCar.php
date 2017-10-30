@@ -43,6 +43,17 @@ class ZeroPromoCar extends Model
 
     ];
 
+    public $belongsToMany = [
+        'downpayment' => [
+            'BotbrosAi\UnionBank\Models\Downpayment',
+            'table' => 'botbrosai_unionbank_downpayment_zero_promo_car'
+        ],
+        'term' => [
+            'BotbrosAi\UnionBank\Models\Term',
+            'table' => 'botbrosai_unionbank_term_zero_promo_car'
+        ]
+
+    ];
 
     public function getZeropromoOptions(){
         return ZeroPromo::where('car_make_id', '=', $this->car_make_id)->lists('title', 'id');

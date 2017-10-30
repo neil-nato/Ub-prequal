@@ -16,16 +16,6 @@ columns:
         type: text
         searchable: true
         sortable: true
-    downpayment:
-        label: Downpayment
-        type: text
-        searchable: true
-        sortable: true
-    term:
-        label: Term(Monthly)
-        type: text
-        searchable: true
-        sortable: true
     zero_promo_id:
         label: 'Zero Promo'
         type: text

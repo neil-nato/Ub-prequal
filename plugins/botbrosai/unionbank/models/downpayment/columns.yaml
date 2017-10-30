@@ -1,0 +1,6 @@
+columns:
+    downpayment:
+        label: Downpayment
+        type: text
+        searchable: true
+        sortable: true

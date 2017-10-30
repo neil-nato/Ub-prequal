@@ -1,0 +1,10 @@
+name: DownpaymentController
+form: $/botbrosai/unionbank/models/downpayment/fields.yaml
+modelClass: BotbrosAi\UnionBank\Models\Downpayment
+defaultRedirect: botbrosai/unionbank/downpaymentcontroller
+create:
+    redirect: 'botbrosai/unionbank/downpaymentcontroller/update/:id'
+    redirectClose: botbrosai/unionbank/downpaymentcontroller
+update:
+    redirect: botbrosai/unionbank/downpaymentcontroller
+    redirectClose: botbrosai/unionbank/downpaymentcontroller

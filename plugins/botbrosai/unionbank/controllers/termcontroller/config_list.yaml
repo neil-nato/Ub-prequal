@@ -1,0 +1,11 @@
+list: $/botbrosai/unionbank/models/term/columns.yaml
+modelClass: BotbrosAi\UnionBank\Models\Term
+title: TermController
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'botbrosai/unionbank/termcontroller/update/:id'

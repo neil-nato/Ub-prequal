@@ -1,0 +1,6 @@
+fields:
+    term:
+        label: Term
+        span: auto
+        oc.commentPosition: ''
+        type: text

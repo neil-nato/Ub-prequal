@@ -1,0 +1,6 @@
+fields:
+    downpayment:
+        label: Downpayment
+        span: auto
+        oc.commentPosition: ''
+        type: text

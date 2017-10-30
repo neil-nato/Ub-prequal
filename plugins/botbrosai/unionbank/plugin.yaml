@@ -27,6 +27,14 @@ navigation:
                 label: 'Zero Promo Car'
                 url: botbrosai/unionbank/zeropromocarcontroller
                 icon: icon-sitemap
+            side-menu-item2:
+                label: Downpayment
+                url: botbrosai/unionbank/downpaymentcontroller
+                icon: icon-sitemap
+            side-menu-item3:
+                label: Term
+                url: botbrosai/unionbank/termcontroller
+                icon: icon-sitemap
     main-menu-item5:
         label: Applications
         url: botbrosai/unionbank/applicationscontroller
