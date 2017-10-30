@@ -35,7 +35,7 @@
                        required />
 
 
-          <button type="submit" class="caption-button">Submit</button>
+          <button type="submit" class="contact-button">Submit</button>
         </b-form >
 
         </b-container>
