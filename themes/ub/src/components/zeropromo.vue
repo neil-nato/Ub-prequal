@@ -24,12 +24,11 @@
                         <div class="control pull-left">
                             <input type="submit" class="btn btn-main" value="Apply Now">
                         </div>
-                    </div>
-                    
+                    </div>              
                     
                     <p class="promo-price" v-if="selectedZeroPromoCar.srp !== '' ">
                         SRP: ₱ {{selectedZeroPromoCar.srp}} <br>
-                        at {{selectedZeroPromoCar.downpayment}} downpayment, {{selectedZeroPromoCar.term}} months
+                        at <span v-for="(downpayment, index) in selectedZeroPromoCar.downpayments">{{ downpayment }} <span v-if="index < selectedZeroPromoCar.downpayments - 1">,&nbsp;</span></span> downpayment, <span v-for="term in selectedZeroPromoCar.terms"> {{ term }} </span> months
                     </p>
                     
 
