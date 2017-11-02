@@ -15,6 +15,7 @@ Vue.use(VeeValidate);
 Vue.use(BootstrapVue);
 Vue.use(VueMask);
 
+Vue.config.devtools = true;
 
 // set up our global plugins and utilities
 require('./app/boot');
