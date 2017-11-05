@@ -61,7 +61,7 @@
                                     <ul>
                                         <?php foreach ($importResults->{$code} as $row => $message): ?>
                                             <li>
-                                                <strong>Row <?= $row + $sourceIndexOffset ?></strong>
+                                                <strong>Row <?= $row ?></strong>
                                                 - <?= e($message) ?>
                                             </li>
                                         <?php endforeach ?>

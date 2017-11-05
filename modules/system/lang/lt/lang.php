@@ -350,9 +350,5 @@ return [
         'manage_editor' => 'Tvarkyti kodo redaktoriaus nustatymus',
         'view_the_dashboard' => 'Skydelis',
         'manage_branding' => 'Redaguoti posistemę'
-    ],
-    'media' => [
-        'invalid_path' => "Nurodytas netinkamas kelias: ':path'.",
-        'folder_size_items' => 'elementai(as)',
-    ],
+    ]
 ];

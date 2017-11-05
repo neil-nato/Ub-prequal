@@ -312,9 +312,5 @@ return [
         'manage_editor' => 'Kod editör ayarlarını düzenleyebilir',
         'view_the_dashboard' => 'Panoyu görüntüleyebilir',
         'manage_branding' => 'Yönetim Panelini özelleştirebilsin'
-    ],
-    'media' => [
-        'invalid_path' => "Geçersiz dosya dizini belirtildi: ':path'.",
-        'folder_size_items' => 'öğe(ler)',
-    ],
+    ]
 ];

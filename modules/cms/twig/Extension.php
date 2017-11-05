@@ -1,5 +1,6 @@
 <?php namespace Cms\Twig;
 
+use URL;
 use Flash;
 use Block;
 use Event;
@@ -34,6 +35,16 @@ class Extension extends Twig_Extension
     }
 
     /**
+     * Returns the name of the extension.
+     *
+     * @return string The extension name
+     */
+    public function getName()
+    {
+        return 'CMS';
+    }
+
+    /**
      * Returns a list of functions to add to the existing list.
      *
      * @return array An array of functions
@@ -59,6 +70,7 @@ class Extension extends Twig_Extension
         return [
             new Twig_SimpleFilter('page', [$this, 'pageFilter'], ['is_safe' => ['html']]),
             new Twig_SimpleFilter('theme', [$this, 'themeFilter'], ['is_safe' => ['html']]),
+            new Twig_SimpleFilter('media', [$this, 'mediaFilter'], ['is_safe' => ['html']]),
         ];
     }
 
@@ -173,6 +185,16 @@ class Extension extends Twig_Extension
     public function themeFilter($url)
     {
         return $this->controller->themeUrl($url);
+    }
+
+    /**
+     * Converts supplied file to a URL relative to the media library.
+     * @param string $file Specifies the media-relative file
+     * @return string
+     */
+    public function mediaFilter($file)
+    {
+        return $this->controller->mediaUrl($file);
     }
 
     /**

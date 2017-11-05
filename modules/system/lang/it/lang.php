@@ -312,9 +312,5 @@ return [
         'manage_editor' => 'Gestisci preferenze editor di codice',
         'view_the_dashboard' => 'Visualizza la dashboard',
         'manage_branding' => 'Personalizza il pannello di controllo'
-    ],
-    'media' => [
-        'invalid_path' => "Percorso del file non valido: ':path'.",
-        'folder_size_items' => 'elementi',
-    ],
+    ]
 ];

@@ -93,7 +93,7 @@ class FormField
     /**
      * @var bool Specifies if this field is mandatory.
      */
-    public $required = null;
+    public $required = false;
 
     /**
      * @var bool Specify if the field is read-only or not.

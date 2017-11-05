@@ -723,13 +723,6 @@ class Controller
             }
         }
 
-        /*
-         * Generic handler that does nothing
-         */
-        if ($handler == 'onAjax') {
-            return true;
-        }
-
         return false;
     }
 
@@ -825,7 +818,8 @@ class Controller
              * Check if the theme has an override
              */
             if (strpos($partialName, '/') === false) {
-                $partial = ComponentPartial::loadOverrideCached($this->theme, $componentObj, $partialName);
+                $overrideName = $componentObj->alias . '/' . $partialName;
+                $partial = Partial::loadCached($this->theme, $overrideName);
             }
 
             /*
@@ -1028,15 +1022,6 @@ class Controller
     // Getters
     //
 
-     /**
-     * Returns the status code for the current web response.
-     * @return int Status code
-     */
-    public function getStatusCode()
-    {
-        return $this->statusCode;
-    }
-
     /**
      * Returns an existing instance of the controller.
      * If the controller doesn't exists, returns null.
@@ -1189,6 +1174,16 @@ class Controller
         }
 
         return $_url;
+    }
+
+    /**
+     * Converts supplied file to a URL relative to the media library.
+     * @param string $file Specifies the media-relative file
+     * @return string
+     */
+    public function mediaUrl($file = null)
+    {
+        return MediaLibrary::url($file);
     }
 
     /**

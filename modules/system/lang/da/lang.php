@@ -312,9 +312,5 @@ return [
         'manage_editor' => 'Administrer kode redigeringsværktøjets indstillinger',
         'view_the_dashboard' => 'Vis administratorpanelet',
         'manage_branding' => 'Tilpas backenden'
-    ],
-    'media' => [
-        'invalid_path' => "Ugyldig sti: ':path'.",
-        'folder_size_items' => 'ting',
-    ],
+    ]
 ];
