@@ -63,15 +63,6 @@
 1.0.22:
     - 'Updated table botbrosai_unionbank_car_model'
     - builder_table_update_botbrosai_unionbank_car_model_3.php
-1.0.23:
-    - 'Created table botbrosai_unionbank_'
-    - builder_table_create_botbrosai_unionbank_.php
-1.0.24:
-    - 'Updated table botbrosai_unionbank_'
-    - builder_table_update_botbrosai_unionbank_downpayment.php
-1.0.25:
-    - 'Updated table botbrosai_unionbank_zero_promo_car_downpayment'
-    - builder_table_update_botbrosai_unionbank_downpayment_zero_promo_car.php
 1.0.26:
     - 'Created table botbrosai_unionbank_term'
     - builder_table_create_botbrosai_unionbank_term.php
@@ -84,3 +75,9 @@
 1.0.29:
     - 'Created table botbrosai_unionbank_term'
     - builder_table_create_botbrosai_unionbank_term_2.php
+1.0.30:
+    - 'Created table botbrosai_unionbank_downpayment'
+    - builder_table_create_botbrosai_unionbank_downpayment.php
+1.0.31:
+    - 'Created table botbrosai_unionbank_downpayment_zero_promo_car'
+    - builder_table_create_botbrosai_unionbank_downpayment_zero_promo_car.php
